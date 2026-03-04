@@ -6,7 +6,8 @@ exercises: 2 # exercise time in minutes
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How would you create a resources and relations in a simple resource package?
+- Why link resources together?
+- How to do so in Arches?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

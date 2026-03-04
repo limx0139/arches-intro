@@ -27,11 +27,13 @@ https://herdemo.archesproject.org/index.htm
 
 This version is hosted online by the Arches community and is a version of Arches for Historic Environment Records, including a sample dataset from Greater London. Note that just about any part of an Arches deployment is customisable, including the home screen. 
 
-## Find a Resource from the Demo
+
+
+## Find a set Resource from the Demo
 
 ## Explore Related Resources
 
-## Challenge: Find a Resource.
+## Challenge: Find a Resource from given parameters.
 
 
 
