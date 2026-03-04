@@ -6,14 +6,14 @@ exercises: 2 # exercise time in minutes
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- Why link resources together?
-- How to do so in Arches?
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-
+- Add new Resources to Arches Database.
+- Use map box extension.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

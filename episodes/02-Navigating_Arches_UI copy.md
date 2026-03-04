@@ -13,8 +13,7 @@ exercises: 10 # exercise time in minutes
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - Perform basic operations on available Arches Demos.
-- Look for Resources, Add Resources, etc
-
+- Look for Resources, modify resources
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
