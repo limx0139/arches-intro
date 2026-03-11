@@ -51,4 +51,4 @@ Answer:
 
 # Conclusion
 
-As has been demonstrated, the Arches database is flexible and malleble to varied needs, even outside of heritage preservation and research. While as end-users, we do not directly interact with database structure, it is st
+As has been demonstrated, the Arches database is flexible and malleble to varied needs, even outside of heritage preservation and research. While as end-users, we do not directly interact with database structure, it is useful to know how it works and why it is designed in this way. 
