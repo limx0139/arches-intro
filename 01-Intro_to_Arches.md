@@ -17,9 +17,9 @@ exercises: 0 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+# Introduction
 
-# What is Arches.
+## What is Arches.
 
 ![](images/01-01-what_is_arches.png)
 
@@ -28,39 +28,29 @@ The above image is taken from the Arches documentation website.
 Arches allows for extensive customisability using a graphical database, so just about any data structure can be stored in the database. It comes with an inbuilt map search with map box as well. As such, Arches is highly flexible and can be used to store and curate a wide variety of information. We can use it to manage anything collections of librarys and museums, to individual items of interest.
 
 
-# Why use Arches?
+## Why use Arches?
 
 Moreover, Arches can be the better choice compared to other similar solutions as it is open source, so no need to pay licensing fees. This can be a good choice for small museums, collectors or hobbists to manage their collection.
 
 
-# Arches Permissions.
+## Arches Permissions.
 
 Arches allows for groups with different levels of permissions to use it. In this  course, we point out the permissions of the user and admin groups, noting also that permissions can be manually updated per installation. A large part of this course will involve end-user permissions, when more advanced functionalities are referenced, it will be done explicitly.
 
 
-# Arches Terminology.
-
-Arches is a software that has gotten consistent updates for years. As such, it has a rich and varied terminology and functionalty. In this section, we discuss the terminology used in Arches as well as the various functionalities covered in the course.
-Resource. Resource Model. Workflow. Graph. Graph Database. Relation.  
-
-Resource Models are the customisable data format of data used in Arches. 
-
-(Might be useful to have this written down as it will be referenced through)
-
-
-# Arches Functionality.
+## Arches Functionality.
 
 Arches is a database that can store and manage a wide assortment of datasets. Looking up and updating items stored in the database is easy as it supports keyword, type and geospatial searches. Arches also stores relational data to allow easy access to items related to each other. (i.e. All publications of a certain academic, or all persons related to a historical event.)
 
 (Placeholder for image of search and relations)
 
 In this course, we will cover the following:
-Searching for Resources.
-Adding Resources.
-Adding and Modifying Resource Models.
+-Searching for Resources.
+-Adding and modifying Resources.
+
 ...
 
-We will use the Arches for HER and Arches for Science Demos, as well as a fresh installation of Arches.
+We will use the Arches for HER, as well as a fresh installation of Arches.
 
 
 
