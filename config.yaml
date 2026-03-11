@@ -67,7 +67,8 @@ contact: 'pl91@st-andrews.ac.uk' # FIXME
 # Order of episodes in your lesson
 episodes: 
 - 01-Intro_to_Arches.md
-
+- 02-Navigating_Arches_UI.md
+- 03-Understanding_Arches_Database.md
 # Information for Learners
 learners: 
 
