@@ -43,16 +43,18 @@ Lets record a scientific project onto the database. First, we navigate to find t
 We find that projects have a name, a description, a list of physical objects involved, a start date, and a team.
 
 We are tasked with recording a new project onto the database: 
+
 - This project investigates the material composition of ceramics around different areas of the world to establish possible connections between pottery making methods across different communities. 
 - The project is kindly funded by the International Foundation for Pottery Heritage.
 - The name of the project is : Necessary Rudiments for Robust Ceramic Making Methods
 - Earliest Start Date is 11 March 2026.
 - Individuals involved are Wendy Rigter, Peter Grave and Ben Marsh.
 - The Pottery objects that are studied:
-| List.         | Object        |
-| ------------- |:-------------:|
-| 1             | right-aligned |
-| 2             | centered      |
-| 3             | are neat      |
+
+| List.         | Object        |   Location  |
+| ------------- |:-------------:|   -----:    |
+| 1             | Sherd 782     | Kinet Höyük |
+| 2             | centered      |         $12 |
+| 3             | are neat      |          $1 |
 
 ## Modifying Entries Manually
