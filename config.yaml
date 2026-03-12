@@ -34,7 +34,9 @@ life_cycle: 'pre-alpha' # FIXME
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/limx0139/work-demo'
+
+# 'https://github.com/carpentries/workbench-template-md' # FIXME
 
 # Default branch of your lesson
 branch: 'main'

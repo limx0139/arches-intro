@@ -1,3 +1,4 @@
+---
 title: "Arches Database Basics"
 teaching: 15 # teaching time in minutes
 exercises: 5 # exercise time in minutes
