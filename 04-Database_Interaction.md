@@ -49,10 +49,10 @@ We are tasked with recording a new project onto the database:
 - Earliest Start Date is 11 March 2026.
 - Individuals involved are Wendy Rigter, Peter Grave and Ben Marsh.
 - The Pottery objects that are studied:
-| Objects       | 
-| ------------- |
-| col 3 is      | 
-| col 2 is      | 
-| zebra stripes | 
+| List.         | Object        |
+| ------------- |:-------------:|
+| 1             | right-aligned |
+| 2             | centered      |
+| 3             | are neat      |
 
 ## Modifying Entries Manually
