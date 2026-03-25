@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Arches"
+title: "What is Arches"
 teaching: 20 # teaching time in minutes
 exercises: 0 # exercise time in minutes
 ---
