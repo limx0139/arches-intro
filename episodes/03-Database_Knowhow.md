@@ -16,13 +16,17 @@ exercises: 5 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## The Arches Database.
+## Database Basics.
 
 A database is simply a way to store persistent information on a server, information that is shared and can be modified between users and periods of time. Databases are used all over web development, even on Arches itself, several discrete databases are used. For instance, to store login credentials and most importantly for heritage data storage. 
 
 A good database structure is good because it is well planned out enough and does not have to be changed. As such, an end-point user will likely not have to work with the Arches database structure all that much. Regardless, understanding of it is beneficial to understand its flexibility in design for heritage storage solutions as well as understand what the database can and cannot do. This is also important for Harry to design his rare coin database!
 
-![alt text](fig/Misc/Thinking_thought_bubble.png)
+![Harry thinking about his database](fig/Misc/Thinking_thought_bubble.png)
+
+Given the fact that designing the database involves deciding how data is stored, you can imagine that it would not exactly be ideal to redesign the database while there is data in it, as it would involve changing the structure of all resources currently stored in it. 
+
+## Arches Database.
 
 The Arches database uses a graphical method of storing data that is proprietary to Arches and designed specifically for the use on heritage data in mind.
 
@@ -50,16 +54,15 @@ This describes a John Doe who is male, Irish, boarded the ship as a member of th
 
 ## Exercise: Intuition for Resource Models.
 
-In this section, we shall provide a description of an item and as an exercise, we ask how might a Resource Model of this item would look like. 
+In this section, we will help Harry design his database. He wants to put in as much information about the coins as possible. For inspiration he pulls out a coin from his wallet:
 
 <!-- ![Pokemon Card: Pikachu](fig/Pokemon/Pikachu.png) -->
+![Harry's Coin](fig/Misc/Back_of_Bulgarian_1_euro_coin.png)
 
-(Pen and Paper)
-A card collector is interested in keeping track of his collection of Pokemon cards digitally. According to the image of the Pokemon Card above, how might the Resource Model for a Pokemon Card look like?
+It is a Bulgarian 1 Euro coin, minted in 2026 in Bulgaria, featuring Saint Ivan of Rila the patron saint of Bulgaria and founder of the Rila Monastery. This is  designed by Petar Stoikov, who has designed several other Bulgarian coins. Naturally, the coin is minted in Bulgaria, minted from copper and nicket. As it is minted recently and as it is minted for currency, the mintage is in the millions. Given that the coin is not rare, its value is the same as its face value, 1 Euro.
 
-Answer:
 
 
 # Conclusion
 
-As has been demonstrated, the Arches database is flexible and malleble to varied needs, even outside of heritage preservation and research. While as end-users, we do not directly interact with database structure, it is useful to know how it works and why it is designed in this way. 
+As has been demonstrated, the Arches database designed is flexible to varied needs, even outside of heritage preservation and research. While as end-users, we do not directly interact with database structure, it is useful to know how it works and why it is designed in this way. 
