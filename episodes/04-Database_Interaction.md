@@ -1,5 +1,5 @@
 ---
-title: "Database Modification"
+title: "Database Interaction"
 teaching: 10 # teaching time in minutes
 exercises: 5 # exercise time in minutes
 ---
@@ -38,7 +38,7 @@ To note, modifications to Arches Demos are local to each session, so while we ca
 
 Lets record a scientific project onto the database. First, we navigate to find the list of Projects in the database.
 
-![](images/04-01-Projects.png)
+![](fig/04-01-Projects.png)
 
 We find that projects have a name, a description, a list of physical objects involved, a start date, and a team.
 

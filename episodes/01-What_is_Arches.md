@@ -1,5 +1,5 @@
 ---
-title: "What is Arches"
+title: "What is Arches? "
 teaching: 20 # teaching time in minutes
 exercises: 0 # exercise time in minutes
 ---
@@ -23,15 +23,16 @@ exercises: 0 # exercise time in minutes
 
 <p align='center'>   <img alt="Arches Website" src="fig/01-01-what_is_arches.png" width="250"/>
 </p>
+![](fig/02-01-home.png)
 
-The above image is taken from the Arches documentation website. 
+
 
 Arches allows for extensive customisability using a graphical database, so just about any data structure can be stored in the database. It comes with an inbuilt map search with map box as well. As such, Arches is highly flexible and can be used to store and curate a wide variety of information. We can use it to manage anything collections of librarys and museums, to individual items of interest.
 
 
 ## Why use Arches?
 
-Moreover, Arches can be the better choice compared to other similar solutions as it is open source, so no need to pay licensing fees. This can be a good choice for small museums, collectors or hobbists to manage their collection.
+Moreover, Arches can be the better choice compared to other similar solutions as it is open source, so no need to pay licensing fees. This is ideal for small museums, collectors or hobbists to digitalise collections locally or on a server for minimal cost.
 
 
 ## Arches Permissions.
