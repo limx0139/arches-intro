@@ -340,24 +340,76 @@
 </div>
 <div class="section level1">
 <h1 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a></h1>
-<div class="section level2">
-<h2 id="what-is-arches-">What is Arches.<a class="anchor" aria-label="anchor" href="#what-is-arches-"></a></h2>
+<p>Put yourself in the shoes of a collector of cards, or of antiques, of
+old misprinted coins, or rare one-of-a-kind stamps. Physical items of
+sentimental, cultural or heritage value to yourself or to society. Be it
+as an individual or group or an organisation dedicated to the collection
+and documentation of things of value, you would eventually run into the
+problems of scale attributed to physical collections:</p>
+<ul><li>It is unwieldy to store them, with large museums renting out massive
+climate-regulated warehouses to store and preserve their massive
+collection of delicate treasures.</li>
+</ul><p align="center">
+<img alt="Warehouse for Minnesota History Center, wikicommons" src="../fig/01-01-what_is_arches.png" width="1000" class="figure"></p>
+<ul><li><p>It is impossible to display much, or even a majority of the
+collection, due to lack of space in museums proper. For instance, the
+National History Museum and many other museums in London only displays
+around 1 percent of their collection, opting to keep the rest of it in
+storage.</p></li>
+<li><p>It becomes nightmarish to sort and curate the collection. Not
+just identifying items for research, even choosing which artefacts go on
+display and which remain on the shelf becomes a problem.</p></li>
+</ul><p>This is why many museums, large and small have digital heritage
+collections, some open to the public like the Louvre, others for
+administrative and curative use. There are many companies offering
+digital solutions to digitalising museums, though the cost may be
+prohibitive to larger museums.</p>
 <p align="center">
-<img alt="Arches Website" src="../fig/01-01-what_is_arches.png" width="1000" class="figure"></p>
-<p>Arches allows for extensive customisability using a graphical
-database, so just about any data structure can be stored in the
-database. It comes with an inbuilt map search with map box as well. As
-such, Arches is highly flexible and can be used to store and curate a
-wide variety of information. We can use it to manage anything
-collections of librarys and museums, to individual items of
-interest.</p>
-</div>
+<img alt="Museu Fonografico Tuneril, a digital museum on Facebook, documenting CD records, wikicommons" src="../fig/Misc/Museu_Fonografico_Tuneril_digital_museum_wikicommons.png" width="1000" class="figure"></p>
+<p>Link to the museum: <a href="https://www.facebook.com/MuseuFonoTuneril/" class="external-link uri">https://www.facebook.com/MuseuFonoTuneril/</a></p>
+<p>A museum may instead host its own digital heritage, as such. But this
+way of storage may be insufficient for museums that need to store more
+complex information, searchable dates and links between objects to
+enhance the experience of browsing through the museum. This is where
+Arches offers a solution.</p>
 <div class="section level2">
-<h2 id="why-use-arches">Why use Arches?<a class="anchor" aria-label="anchor" href="#why-use-arches"></a></h2>
-<p>Moreover, Arches can be the better choice compared to other similar
-solutions as it is open source, so no need to pay licensing fees. This
-is ideal for small museums, collectors or hobbists to digitalise
-collections locally or on a server for minimal cost.</p>
+<h2 id="what-is-arches-and-why-use-it">What is Arches and why use it?<a class="anchor" aria-label="anchor" href="#what-is-arches-and-why-use-it"></a></h2>
+<p>The Arches Project was created as a collaboration between Getty
+Conservation Institute and World Monuments Fund as a low cost digital
+inventory, focusing on massive customisation and offering modern
+solutons to heritage research and curation.</p>
+<p>Naturally, there are many such technologies on the market offering
+solutions to digitalising heritage but Arches differs from them as it is
+open-source. Arches has a international collaborative community
+passionately working to update and improve the Arches experience for all
+users.</p>
+<p>Moreover, as an open-source project, users of Arches are not beholden
+to any licensing fees at all. The only necessary cost of Arches is the
+costs to run the server. This is ideal for small museums, collectors or
+hobbists to digitalise collections locally or on a server for minimal
+cost.</p>
+<p>In this lesson, we will follow the character of Hans, an avid
+collector of rare European coins, boasting over 500 unique coins in his
+inventory. Eying to share his love of old coins and their rich and
+varied histories to the world, Hans has set up an Arches installation on
+a server he owns and looks to design and populate his digital
+collection.</p>
+<div class="row">
+<div class="column">
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="op">&lt;</span>img <span class="va">src</span><span class="op">=</span><span class="st">"fig/Misc/Smiling_cartoon_man_with_thumbs_up_using_a_computer_wikicommons.jpg"</span> <span class="va">alt</span><span class="op">=</span><span class="st">"Hans"</span> <span class="va">style</span><span class="op">=</span><span class="st">"width:50%"</span><span class="op">&gt;</span></span></code></pre>
+</div>
+</div>
+<div class="column">
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="op">&lt;</span>img <span class="va">src</span><span class="op">=</span><span class="st">"fig/Misc/Piéce_2_euros_commémorative_wikicommons.jpg"</span> <span class="va">alt</span><span class="op">=</span><span class="st">"Coin Collection"</span> <span class="va">style</span><span class="op">=</span><span class="st">"width:50%"</span><span class="op">&gt;</span></span></code></pre>
+</div>
+</div>
+</div>
 </div>
 <div class="section level2">
 <h2 id="arches-permissions-">Arches Permissions.<a class="anchor" aria-label="anchor" href="#arches-permissions-"></a></h2>
@@ -376,7 +428,17 @@ as it supports keyword, type and geospatial searches. Arches also stores
 relational data to allow easy access to items related to each other.
 (i.e. All publications of a certain academic, or all persons related to
 a historical event.)</p>
-<p>(Placeholder for image of search and relations)</p>
+<p>Arches allows for extensive customisability using a graphical
+database, so just about any data structure can be stored in the
+database. It comes with an inbuilt map search with map box as well. As
+such, Arches is highly flexible and can be used to store and curate a
+wide variety of information. We can use it to manage anything
+collections of librarys and museums, to individual items of
+interest.</p>
+<p>Arches also implements a powerful search engine for resources in its
+database, allowing for customisability in search filters as well as the
+option to expose/hide information of a resource in a search.
+(Placeholder for image of search and relations)</p>
 <p>In this course, we will cover the following: -Searching for
 Resources. -Adding and modifying Resources.</p>
 <p>…</p>
