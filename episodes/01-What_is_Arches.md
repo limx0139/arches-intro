@@ -23,7 +23,7 @@ exercises: 0 # exercise time in minutes
 
 <p align='center'>   <img alt="Arches Website" src="fig/01-01-what_is_arches.png" width="250"/>
 </p>
-![](fig/02-01-home.png)
+![Arches Home Webpage](fig/02-01-home.png)
 
 
 
