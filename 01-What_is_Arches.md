@@ -39,44 +39,29 @@ There are many companies offering digital solutions to digitalising museums, tho
 Museu Fonografico Tuneril digital collections.
 Link to the museum: https://www.facebook.com/MuseuFonoTuneril/ 
 
-A museum may instead host its own digital heritage, as such. But this way of storage may be insufficient for museums that need to store more complex information, searchable dates and links between objects to enhance the experience of browsing through the museum. This is where Arches offers a solution.
+A museum may instead host its own digital heritage, as can be seen above, the Museu Fonografico Tuneril hosts its digital collection on Facebook. But this way of storage may be insufficient for museums that need to store more complex information, to capture the complexities between objects to enhance the experience of browsing through the museum. This is where Arches offers a solution.
 
 
-##  What is Arches and why use it?
+##  What is Arches and Why use it?
 
 The Arches Project was created as a collaboration between Getty Conservation Institute and World Monuments Fund as a low cost digital inventory, focusing on massive customisation and offering modern solutons to heritage research and curation.
 
 Naturally, there are many such technologies on the market offering solutions to digitalising heritage but Arches differs from them as it is open-source. Arches has a international collaborative community passionately working to update and improve the Arches experience for all users. Moreover, documentation of Arches is also available for public access, so anyone interested about Arches can learn more about it and help is available online to construct your own installation of it. Arches also does not charge licensing fees at all. The only necessary cost of Arches is the costs to run the server. This is ideal for small museums, collectors or hobbists to digitalise collections locally or on a server for minimal cost.
 
-In this lesson, we will follow the character of Hans, an avid collector of rare European coins, boasting over 500 unique coins in his inventory. Eying to share his love of old coins and their rich and varied histories to the world, Hans has set up an Arches installation on a server he owns and looks to design and populate his digital collection.
+In this lesson, we will follow the character of Harry, an avid collector of rare European coins, boasting over 500 unique coins in his inventory. Eying to share his love of old coins and their rich and varied histories to the world, Hans has set up an Arches installation on a server he owns and looks to design and populate his digital collection.
 
-Hans the Coin Collector   |  EU Coins
+Harry the Coin Collector   |  EU Coins
 :-------------------------:|:-------------------------:
 ![Hans the Coin Collector](fig/Misc/Smiling_cartoon_man_with_thumbs_up_using_a_computer_wikicommons.jpg)  |  ![EU Coins](fig/Misc/Piéce_2_euros_commémorative_wikicommons.jpg)
-
-## Arches Permissions.
-
-Arches allows for groups with different levels of permissions to use it. In this  course, we point out the permissions of the user and admin groups, noting also that permissions can be manually updated per installation. A large part of this course will involve end-user permissions, when more advanced functionalities are referenced, it will be done explicitly. 
 
 
 ## Arches Functionality.
 
-Arches is a database that can store and manage a wide assortment of datasets. Looking up and updating items stored in the database is easy as it supports keyword, type and geospatial searches. Arches also stores relational data to allow easy access to items related to each other. (i.e. All publications of a certain academic, or all persons related to a historical event.)
-
-Arches allows for extensive customisability using a graphical database, so just about any data structure can be stored in the database. It comes with an inbuilt map search with map box as well. As such, Arches is highly flexible and can be used to store and curate a wide variety of information. We can use it to manage anything collections of librarys and museums, to individual items of interest.
-
-Arches also implements a powerful search engine for resources in its database, allowing for customisability in search filters as well as the option to expose/hide information of a resource in a search.
-(Placeholder for image of search and relations)
-
-In this course, we will cover the following:
--Searching for Resources.
--Adding and modifying Resources.
-
-...
-
-We will use the Arches for HER, as well as a fresh installation of Arches.
 
 
 
+## Arches Permissions.
+
+Arches allows for groups with different levels of permissions to use it. In this  course, we point out the permissions of the user and admin groups, noting also that permissions can be manually updated per installation. A large part of this course will involve end-user permissions, when more advanced functionalities are referenced, it will be done explicitly. 
 
 

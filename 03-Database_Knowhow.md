@@ -16,15 +16,17 @@ exercises: 5 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-# The Arches Database.
+## The Arches Database.
 
 A database is simply a way to store persistent information on a server, information that is shared and can be modified between users and periods of time. Databases are used all over web development, even on Arches itself, several discrete databases are used. For instance, to store login credentials and most importantly for heritage data storage. 
 
-While it is not strictly necessary to have a complete understanding of the database as an end-user of Arches, some understanding of it is beneficial to understand its flexibility in design for heritage storage solutions.
+A good database structure is good because it is well planned out enough and does not have to be changed. As such, an end-point user will likely not have to work with the Arches database structure all that much. Regardless, understanding of it is beneficial to understand its flexibility in design for heritage storage solutions as well as understand what the database can and cannot do. This is also important for Harry to design his rare coin database!
+
+![alt text](fig/Misc/Thinking_thought_bubble.png)
 
 The Arches database uses a graphical method of storing data that is proprietary to Arches and designed specifically for the use on heritage data in mind.
 
-<!-- ![Arches Structure](fig/03-01-Arches_Structure_v1.png) -->
+![Arches Structure](fig/03-01-Arches_Structure_v1.png)
 
 The above diagram shows a hierarchical structure of the Arches database. 
 
@@ -32,7 +34,7 @@ The Resource Package is the database structure itself, tailored for each use cas
 
 For instance, suppose we were to define a database to store the list of passengers and crew abroad the Titanic. We might want to add Resource Models to fit the people abroad the ship, along with information about their names, places of origin, whether they survived the sinking, etc. We may also include information about the different lodgings abroad the ship, as well as the different types of passangers as well as recovered artefacts from that time period. A rudimentary design for this may look like this.
 
-<!-- ![Example: The Titanic](fig/03-02-Titanic_Example.png) -->
+![Example: The Titanic](fig/03-02-Titanic_Example.png)
 
 This Resource Package has 3 different Resource Models, for People, the Lodgings available as well as the Groups involved on the ship. Of which, instances of the lodging may include First, Second and Third Class rooms, and the Groups include Passengers and Crew. These are Instances of Resource Models. We also illustrate the structure of the Resource Model for People to contain their names, lodgings, group and fate. 
 
@@ -42,11 +44,11 @@ Naturally, this is not exhaustive. Other relevant categories such as nationality
 
 So, a relationship graph for a person resource in this database may look like this:
 
-<!-- ![Jon Doe's Relations](fig/03-03-Person.png) -->
+![Jon Doe's Relations](fig/03-03-Person.png)
 
 This describes a John Doe who is male, Irish, boarded the ship as a member of the crew, stayed in third-class lodging, who died in the sinking of the ship.
 
-# Exercise: Intuition for Resource Models.
+## Exercise: Intuition for Resource Models.
 
 In this section, we shall provide a description of an item and as an exercise, we ask how might a Resource Model of this item would look like. 
 
