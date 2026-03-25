@@ -19,6 +19,8 @@ exercises: 10 # exercise time in minutes
 
 ## Access the Arches for Heritage Demo
 
+Before working on our own installation of Arches, we will check out sample
+
 We can access an online version of Arches, Arches for HER using the following link:
 https://herdemo.archesproject.org/index.htm 
 
