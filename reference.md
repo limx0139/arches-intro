@@ -16,11 +16,16 @@ https://www.archesproject.org/her-demo/
 Arches for Science Demo:
 https://afsdemo.archesproject.org/search?paging-filter=1&tiles=true
 
+https://www.archesproject.org/afs-demo/
+
 Arches Database Design:
 https://arches.readthedocs.io/en/7.6/administering/designing-the-database/
 
 Creating Relations:
 https://arches.readthedocs.io/en/7.6/administering/instance-relationships/
+
+Bulgarian Coin Reference:
+https://en.numista.com/537214
 
 ## Image References
 
@@ -43,3 +48,6 @@ Retrieved at https://commons.wikimedia.org/wiki/File:Smiling_cartoon_man_with_th
 
 Thinking_thought_bubble.png -
 Retrieved at https://commons.wikimedia.org/wiki/File:Thinking_thought_bubble.png , credit: FreyaSyauqila, Wikimedia Commons
+
+Back_of_Bulgarian_1_euro_coin.png - 
+Retrieved at https://en.wikipedia.org/wiki/File:Back_of_Bulgarian_1_euro_coin.png , credit: unknown, Wikimedia Commons
