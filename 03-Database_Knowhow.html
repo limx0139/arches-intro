@@ -225,12 +225,20 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         3. Database Basics
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#the-arches-database.">The Arches Database.</a></li>
+<li><a href="#exercise-intuition-for-resource-models.">Exercise: Intuition for Resource Models.</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -337,23 +345,26 @@ in just about any format.</li>
 </div>
 </div>
 </div>
-<div class="section level1">
-<h1 id="the-arches-database-">The Arches Database.<a class="anchor" aria-label="anchor" href="#the-arches-database-"></a></h1>
-<p>A database is simply a way to store persistent information on a
+<section><h2 class="section-heading" id="the-arches-database-">The Arches Database.<a class="anchor" aria-label="anchor" href="#the-arches-database-"></a></h2>
+<hr class="half-width"><p>A database is simply a way to store persistent information on a
 server, information that is shared and can be modified between users and
 periods of time. Databases are used all over web development, even on
 Arches itself, several discrete databases are used. For instance, to
 store login credentials and most importantly for heritage data
 storage.</p>
-<p>While it is not strictly necessary to have a complete understanding
-of the database as an end-user of Arches, some understanding of it is
-beneficial to understand its flexibility in design for heritage storage
-solutions.</p>
-<p>The Arches database uses a graphical method of storing data that is
+<p>A good database structure is good because it is well planned out
+enough and does not have to be changed. As such, an end-point user will
+likely not have to work with the Arches database structure all that
+much. Regardless, understanding of it is beneficial to understand its
+flexibility in design for heritage storage solutions as well as
+understand what the database can and cannot do. This is also important
+for Harry to design his rare coin database!</p>
+<figure><img src="fig/Misc/Thinking_thought_bubble.png" alt="alt text" class="figure mx-auto d-block"><div class="figcaption">alt text</div>
+</figure><p>The Arches database uses a graphical method of storing data that is
 proprietary to Arches and designed specifically for the use on heritage
 data in mind.</p>
-<!-- ![Arches Structure](fig/03-01-Arches_Structure_v1.png) -->
-<p>The above diagram shows a hierarchical structure of the Arches
+<figure><img src="fig/03-01-Arches_Structure_v1.png" alt="Arches Structure" class="figure mx-auto d-block"><div class="figcaption">Arches Structure</div>
+</figure><p>The above diagram shows a hierarchical structure of the Arches
 database.</p>
 <p>The Resource Package is the database structure itself, tailored for
 each use case. A Resource Model is the structure of a type of entry in
@@ -374,8 +385,8 @@ We may also include information about the different lodgings abroad the
 ship, as well as the different types of passangers as well as recovered
 artefacts from that time period. A rudimentary design for this may look
 like this.</p>
-<!-- ![Example: The Titanic](fig/03-02-Titanic_Example.png) -->
-<p>This Resource Package has 3 different Resource Models, for People,
+<figure><img src="fig/03-02-Titanic_Example.png" alt="Example: The Titanic" class="figure mx-auto d-block"><div class="figcaption">Example: The Titanic</div>
+</figure><p>This Resource Package has 3 different Resource Models, for People,
 the Lodgings available as well as the Groups involved on the ship. Of
 which, instances of the lodging may include First, Second and Third
 Class rooms, and the Groups include Passengers and Crew. These are
@@ -393,14 +404,12 @@ construction of the ship, as well as artefacts associated with and
 retrieved from the ship.</p>
 <p>So, a relationship graph for a person resource in this database may
 look like this:</p>
-<!-- ![Jon Doe's Relations](fig/03-03-Person.png) -->
-<p>This describes a John Doe who is male, Irish, boarded the ship as a
+<figure><img src="fig/03-03-Person.png" alt="Jon Doe’s Relations" class="figure mx-auto d-block"><div class="figcaption">Jon Doe’s Relations</div>
+</figure><p>This describes a John Doe who is male, Irish, boarded the ship as a
 member of the crew, stayed in third-class lodging, who died in the
 sinking of the ship.</p>
-</div>
-<div class="section level1">
-<h1 id="exercise-intuition-for-resource-models-">Exercise: Intuition for Resource Models.<a class="anchor" aria-label="anchor" href="#exercise-intuition-for-resource-models-"></a></h1>
-<p>In this section, we shall provide a description of an item and as an
+</section><section><h2 class="section-heading" id="exercise-intuition-for-resource-models-">Exercise: Intuition for Resource Models.<a class="anchor" aria-label="anchor" href="#exercise-intuition-for-resource-models-"></a></h2>
+<hr class="half-width"><p>In this section, we shall provide a description of an item and as an
 exercise, we ask how might a Resource Model of this item would look
 like.</p>
 <!-- ![Pokemon Card: Pikachu](fig/Pokemon/Pikachu.png) -->
@@ -409,8 +418,7 @@ his collection of Pokemon cards digitally. According to the image of the
 Pokemon Card above, how might the Resource Model for a Pokemon Card look
 like?</p>
 <p>Answer:</p>
-</div>
-<div class="section level1">
+</section><div class="section level1">
 <h1 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a></h1>
 <p>As has been demonstrated, the Arches database is flexible and
 malleble to varied needs, even outside of heritage preservation and
