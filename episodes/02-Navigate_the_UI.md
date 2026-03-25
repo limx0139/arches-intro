@@ -13,7 +13,7 @@ exercises: 10 # exercise time in minutes
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - Perform basic operations on available Arches Demos.
-- Look for Resources, modify resources
+- Exercise Reading (searching for) resources on the Arches Demo.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -82,11 +82,27 @@ For instance, suppose we want to collate a list of all Edwardian train stations 
 
 ![Find all Edwardian Rails](fig/02-08-Edwardian_Rail.png)
 
-Using relations, we find four such that satisfy our conditions railway stations from the list: Kentish Town, Belsize Park, Chalk Hill and Russell Square Underground Stations amd Harry is off for his audit!
+Using relations, we find four such that satisfy our conditions railway stations from the list: 
+
+- Kentish Town
+- Belsize Park
+- Chalk Hill 
+- Russell Square Underground Stations 
+
+And with the right information, Harry is off for his audit!
 
 ## Challenge: Find a Resource from given parameters.
 
 Finally, as a challenge on the current dataset, look for a Victorian era church in the Norwood area that was curiously constructed from concrete.
+
+
+Category   |  Data
+:-------------------------:|:-------------------------:
+Era   |  Victorian
+Building  |  Church
+Location   |  Norwood
+Percularities  |  Concrete construction
+
 
 ## Conclusion
 

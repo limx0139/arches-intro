@@ -12,11 +12,11 @@ exercises: 5 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Add and modify resources to the database through workflows and direct interaction with models.
+- Exercise Creating, Updating and Deleting resources on the Arches Demo.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-# Introduction
+## Introduction
 
 So far, we have covered how you would go about searching for information in Arches, but a database is only as good as its ability to keep itself up to date. In this lesson, we will learn to modify data on the Arches database.
 
@@ -81,6 +81,23 @@ Search for our project in the database and when you find it, click on the edit b
 
 ![End Date](fig/04-08-Database_Modification.png)
 
+## Deleting a Resource
+
+As our access of the Arches for Science Demo is transient, leaving the page will revert all our changes to it. This will not be the case for our own databases. 
+
+Regardless, deleting data is an essential part of database maintanance and Arches provides a simple way to do so as well.
+
+For instance, if it is decided that the project, Necessary Rudiments for Robust Ceramic Making Methods, is cancelled for any reason, we may decide the best way to represent this is to remove the project from the database.
+
+To do so:
+- First, we search for the resource accordingly.
+- Click on the edit button to open the popup for the resource.
+![Delete Resource](fig/04-09-Delete_Resource.png)
+
+- Click on the "Manage" button on the top left to get the left tab to appear. The option to delete the resource should be the first option on the list.
+
+
 
 ## Conclusion
 
+This process of Creating, Reading (which was done in lesson 2), Updating and Deleting (CRUD) resources is the rudiment in all database management and is essential to keeping and maintaining the Arches Database.
