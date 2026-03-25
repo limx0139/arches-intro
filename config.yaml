@@ -18,7 +18,7 @@ carpentry: 'incubator'
 carpentry_description: 'Lesson Description'
 
 # Overall title for pages.
-title: 'Arches Carpentry' # FIXME
+title: 'Introduction to Arches Project' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created:
@@ -34,7 +34,7 @@ life_cycle: 'pre-alpha' # FIXME
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/limx0139/work-demo'
+source: 'https://github.com/limx0139/arches-intro'
 
 # 'https://github.com/carpentries/workbench-template-md' # FIXME
 
@@ -68,10 +68,13 @@ contact: 'pl91@st-andrews.ac.uk' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- 01-Intro_to_Arches.md
-- 02-Navigating_Arches_UI.md
-- 03-Understanding_Arches_Database.md
+- 01-What_is_Arches.md
+- 02-Navigate_the_UI.md
+- 03-Database_Knowhow.md
 - 04-Database_Interaction.md
+- 05-Linking_Resources.md
+- 06-Lets_Try_it_out.md
+- 07-Bulk_Imports.md
 
 # Information for Learners
 learners: 
