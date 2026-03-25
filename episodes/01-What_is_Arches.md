@@ -21,7 +21,7 @@ exercises: 0 # exercise time in minutes
 
 ## What is Arches.
 
-<p align='center'>   <img alt="placeholder" src="images/01-01-what_is_arches.png" width="250"/>
+<p align='center'>   <img alt="Arches Website" src="fig/01-01-what_is_arches.png" width="250"/>
 </p>
 
 The above image is taken from the Arches documentation website. 
