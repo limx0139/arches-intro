@@ -119,11 +119,11 @@
   Introduction to Arches Project
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 53%" class="percentage">
-    53%
+<aside class="col-md-12 lesson-progress"><div style="width: 50%" class="percentage">
+    50%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 53%" aria-valuenow="53" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 50%" aria-valuenow="50" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -235,7 +235,8 @@
 
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#the-arches-database.">The Arches Database.</a></li>
+        <ul><li><a href="#database-basics.">Database Basics.</a></li>
+<li><a href="#arches-database.">Arches Database.</a></li>
 <li><a href="#exercise-intuition-for-resource-models.">Exercise: Intuition for Resource Models.</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
@@ -347,7 +348,7 @@ in just about any format.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="the-arches-database-">The Arches Database.<a class="anchor" aria-label="anchor" href="#the-arches-database-"></a></h2>
+<section><h2 class="section-heading" id="database-basics-">Database Basics.<a class="anchor" aria-label="anchor" href="#database-basics-"></a></h2>
 <hr class="half-width"><p>A database is simply a way to store persistent information on a
 server, information that is shared and can be modified between users and
 periods of time. Databases are used all over web development, even on
@@ -361,8 +362,13 @@ much. Regardless, understanding of it is beneficial to understand its
 flexibility in design for heritage storage solutions as well as
 understand what the database can and cannot do. This is also important
 for Harry to design his rare coin database!</p>
-<figure><img src="../fig/Misc/Thinking_thought_bubble.png" alt="alt text" class="figure mx-auto d-block"><div class="figcaption">alt text</div>
-</figure><p>The Arches database uses a graphical method of storing data that is
+<figure><img src="../fig/Misc/Thinking_thought_bubble.png" alt="Harry thinking about his database" class="figure mx-auto d-block"><div class="figcaption">Harry thinking about his database</div>
+</figure><p>Given the fact that designing the database involves deciding how data
+is stored, you can imagine that it would not exactly be ideal to
+redesign the database while there is data in it, as it would involve
+changing the structure of all resources currently stored in it.</p>
+</section><section><h2 class="section-heading" id="arches-database-">Arches Database.<a class="anchor" aria-label="anchor" href="#arches-database-"></a></h2>
+<hr class="half-width"><p>The Arches database uses a graphical method of storing data that is
 proprietary to Arches and designed specifically for the use on heritage
 data in mind.</p>
 <figure><img src="../fig/03-01-Arches_Structure_v1.png" alt="Arches Structure" class="figure mx-auto d-block"><div class="figcaption">Arches Structure</div>
@@ -411,22 +417,24 @@ look like this:</p>
 member of the crew, stayed in third-class lodging, who died in the
 sinking of the ship.</p>
 </section><section><h2 class="section-heading" id="exercise-intuition-for-resource-models-">Exercise: Intuition for Resource Models.<a class="anchor" aria-label="anchor" href="#exercise-intuition-for-resource-models-"></a></h2>
-<hr class="half-width"><p>In this section, we shall provide a description of an item and as an
-exercise, we ask how might a Resource Model of this item would look
-like.</p>
+<hr class="half-width"><p>In this section, we will help Harry design his database. He wants to
+put in as much information about the coins as possible. For inspiration
+he pulls out a coin from his wallet:</p>
 <!-- ![Pokemon Card: Pikachu](fig/Pokemon/Pikachu.png) -->
-<p>(Pen and Paper) A card collector is interested in keeping track of
-his collection of Pokemon cards digitally. According to the image of the
-Pokemon Card above, how might the Resource Model for a Pokemon Card look
-like?</p>
-<p>Answer:</p>
+<figure><img src="../fig/Misc/Back_of_Bulgarian_1_euro_coin.png" alt="Harry’s Coin" class="figure mx-auto d-block"><div class="figcaption">Harry’s Coin</div>
+</figure><p>It is a Bulgarian 1 Euro coin, minted in 2026 in Bulgaria, featuring
+Saint Ivan of Rila the patron saint of Bulgaria and founder of the Rila
+Monastery. This is designed by Petar Stoikov, who has designed several
+other Bulgarian coins. Naturally, the coin is minted in Bulgaria, minted
+from copper and nicket. As it is minted recently and as it is minted for
+currency, the mintage is in the millions. Given that the coin is not
+rare, its value is the same as its face value, 1 Euro.</p>
 </section><div class="section level1">
 <h1 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a></h1>
-<p>As has been demonstrated, the Arches database is flexible and
-malleble to varied needs, even outside of heritage preservation and
-research. While as end-users, we do not directly interact with database
-structure, it is useful to know how it works and why it is designed in
-this way. <!--
+<p>As has been demonstrated, the Arches database designed is flexible to
+varied needs, even outside of heritage preservation and research. While
+as end-users, we do not directly interact with database structure, it is
+useful to know how it works and why it is designed in this way. <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  --></p>

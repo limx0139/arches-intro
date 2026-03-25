@@ -643,7 +643,7 @@ in just about any format.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="the-arches-database-">The Arches Database.<a class="anchor" aria-label="anchor" href="#the-arches-database-"></a>
+<section><h2 class="section-heading" id="database-basics-">Database Basics.<a class="anchor" aria-label="anchor" href="#database-basics-"></a>
 </h2>
 <hr class="half-width">
 <p>A database is simply a way to store persistent information on a
@@ -659,8 +659,15 @@ much. Regardless, understanding of it is beneficial to understand its
 flexibility in design for heritage storage solutions as well as
 understand what the database can and cannot do. This is also important
 for Harry to design his rare coin database!</p>
-<figure><img src="../fig/Misc/Thinking_thought_bubble.png" alt="alt text" class="figure mx-auto d-block"><div class="figcaption">alt text</div>
-</figure><p>The Arches database uses a graphical method of storing data that is
+<figure><img src="../fig/Misc/Thinking_thought_bubble.png" alt="Harry thinking about his database" class="figure mx-auto d-block"><div class="figcaption">Harry thinking about his database</div>
+</figure><p>Given the fact that designing the database involves deciding how data
+is stored, you can imagine that it would not exactly be ideal to
+redesign the database while there is data in it, as it would involve
+changing the structure of all resources currently stored in it.</p>
+</section><section><h2 class="section-heading" id="arches-database-">Arches Database.<a class="anchor" aria-label="anchor" href="#arches-database-"></a>
+</h2>
+<hr class="half-width">
+<p>The Arches database uses a graphical method of storing data that is
 proprietary to Arches and designed specifically for the use on heritage
 data in mind.</p>
 <figure><img src="../fig/03-01-Arches_Structure_v1.png" alt="Arches Structure" class="figure mx-auto d-block"><div class="figcaption">Arches Structure</div>
@@ -711,23 +718,25 @@ sinking of the ship.</p>
 </section><section><h2 class="section-heading" id="exercise-intuition-for-resource-models-">Exercise: Intuition for Resource Models.<a class="anchor" aria-label="anchor" href="#exercise-intuition-for-resource-models-"></a>
 </h2>
 <hr class="half-width">
-<p>In this section, we shall provide a description of an item and as an
-exercise, we ask how might a Resource Model of this item would look
-like.</p>
+<p>In this section, we will help Harry design his database. He wants to
+put in as much information about the coins as possible. For inspiration
+he pulls out a coin from his wallet:</p>
 <!-- ![Pokemon Card: Pikachu](fig/Pokemon/Pikachu.png) -->
-<p>(Pen and Paper) A card collector is interested in keeping track of
-his collection of Pokemon cards digitally. According to the image of the
-Pokemon Card above, how might the Resource Model for a Pokemon Card look
-like?</p>
-<p>Answer:</p>
+<figure><img src="../fig/Misc/Back_of_Bulgarian_1_euro_coin.png" alt="Harry’s Coin" class="figure mx-auto d-block"><div class="figcaption">Harry’s Coin</div>
+</figure><p>It is a Bulgarian 1 Euro coin, minted in 2026 in Bulgaria, featuring
+Saint Ivan of Rila the patron saint of Bulgaria and founder of the Rila
+Monastery. This is designed by Petar Stoikov, who has designed several
+other Bulgarian coins. Naturally, the coin is minted in Bulgaria, minted
+from copper and nicket. As it is minted recently and as it is minted for
+currency, the mintage is in the millions. Given that the coin is not
+rare, its value is the same as its face value, 1 Euro.</p>
 </section><div class="section level1">
 <h1 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
 </h1>
-<p>As has been demonstrated, the Arches database is flexible and
-malleble to varied needs, even outside of heritage preservation and
-research. While as end-users, we do not directly interact with database
-structure, it is useful to know how it works and why it is designed in
-this way. <!--
+<p>As has been demonstrated, the Arches database designed is flexible to
+varied needs, even outside of heritage preservation and research. While
+as end-users, we do not directly interact with database structure, it is
+useful to know how it works and why it is designed in this way. <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  --></p>
@@ -736,7 +745,7 @@ any links that you are not going to use.
 <p>Last updated on 2026-03-25 |
 
         <a href="https://github.com/limx0139/arches-intro/edit/main/episodes/04-Database_Interaction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 15 minutes</p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -785,22 +794,25 @@ operation on the database so interacting with resource model trees is
 still necessary.</p>
 <p>Here, we will use the Arches for Science Demo, which is a Arches
 instance designed to manage heritage science data: <a href="https://afsdemo.archesproject.org" class="external-link uri">https://afsdemo.archesproject.org</a></p>
-<p>This Demo contains information about research done on heritage
+<figure><img src="../fig/04-01-Arches_for_Science.png" alt="Arches for Science Home Page" class="figure mx-auto d-block"><div class="figcaption">Arches for Science Home Page</div>
+</figure><p>This Demo contains information about research done on heritage
 ceramic artefacts using the Arches for Science Resource Package.</p>
-<p>To note, modifications to Arches Demos are local to each session, so
-while we can edit the database to have a feel for the software, no one
-else can see our changes and they will be reset when we leave the
-webpage. On an actual Arches installation, changes made to the database
-will be persistent.</p>
+<p>As previously mentioned, modifications to Arches Demos are local to
+each session, so while we can edit the database to have a feel for the
+software, no one else can see our changes and they will be reset when we
+leave the webpage. On an actual Arches installation, changes made to the
+database will be persistent.</p>
 <div class="section level2">
 <h2 id="using-workflow">Using Workflow<a class="anchor" aria-label="anchor" href="#using-workflow"></a>
 </h2>
-<p>Lets record a scientific project onto the database. First, we
-navigate to find the list of Projects in the database.</p>
-<!-- ![Projects](fig/04-02-Projects.png) -->
-<p>We find that projects have a name, a description, a list of physical
+<p>Looking at the Arches for Science Demo, Harry decides to try to add a
+project into the database using Workflows. First, he searches for active
+projects in the database:</p>
+<figure><img src="../fig/04-02-Projects.png" alt="Projects" class="figure mx-auto d-block"><div class="figcaption">Projects</div>
+</figure><p>We find that projects have a name, a description, a list of physical
 objects involved, a start date, and a team.</p>
-<p>We are tasked with recording a new project onto the database:</p>
+<p>Harry writes up some information for a possible project that could be
+added to the database:</p>
 <ul>
 <li>This project investigates the material composition of ceramics
 around different areas of the world to establish possible connections
@@ -809,38 +821,49 @@ between pottery making methods across different communities.</li>
 Pottery Heritage.</li>
 <li>The name of the project is : Necessary Rudiments for Robust Ceramic
 Making Methods</li>
+<li>The scale of the project is : initiative</li>
 <li>Earliest Start Date is 11 March 2026.</li>
 <li>Individuals involved are Wendy Rigter, Peter Grave and Ben
 Marsh.</li>
-<li>The Pottery objects that are studied:</li>
+<li>The Pottery objects that are studied are: Sherd 782 and Sherd
+1617.</li>
 </ul>
-<table class="table">
-<thead><tr>
-<th>List.</th>
-<th align="center">Object</th>
-<th align="right">Location</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>1</td>
-<td align="center">Sherd 782</td>
-<td align="right">Kinet Höyük</td>
-</tr>
-<tr>
-<td>2</td>
-<td align="center">centered</td>
-<td align="right">$12</td>
-</tr>
-<tr>
-<td>3</td>
-<td align="center">are neat</td>
-<td align="right">$1</td>
-</tr>
-</tbody>
-</table>
+<p>In order to add the project, here’s what we need to do:</p>
+<figure><img src="../fig/04-04-New_Project.png" alt="New Project" class="figure mx-auto d-block"><div class="figcaption">New Project</div>
+</figure><ul>
+<li>First, navigate to the workflows tab on the sidebar and create a new
+project.</li>
+</ul>
+<figure><img src="../fig/04-05-Project_Workflow.png" alt="alt text" class="figure mx-auto d-block"><div class="figcaption">alt text</div>
+</figure><ul>
+<li>Input the information accordingly.</li>
+</ul>
+<figure><img src="../fig/04-06-Workflow_Summary.png" alt="Workflow Summary" class="figure mx-auto d-block"><div class="figcaption">Workflow Summary</div>
+</figure><ul>
+<li>Finally on the Summary tab, verify that all the information written
+is correct and complete the workflow.</li>
+</ul>
+<p>Now the project is saved on the database, we can access it by search
+it up accordingly:</p>
+<figure><img src="../fig/04-07-Database_Modified.png" alt="Database Modified" class="figure mx-auto d-block"><div class="figcaption">Database Modified</div>
+</figure>
 </div>
 <div class="section level2">
 <h2 id="modifying-entries-manually">Modifying Entries Manually<a class="anchor" aria-label="anchor" href="#modifying-entries-manually"></a>
+</h2>
+<p>Say some time has past and we have completed our project and we want
+to update our database to reflect that. There is no workflow made to
+update the end date of a project, and it would not make much sense to do
+so anyway, as it ought to be a simple task. We will need to directly
+modify the resource to reflect this change.</p>
+<p>Search for our project in the database and when you find it, click on
+the edit button on it. Navigate to the node storing start and end dates
+and add the end date appropriately.</p>
+<figure><img src="../fig/04-08-Database_Modification.png" alt="End Date" class="figure mx-auto d-block"><div class="figcaption">End Date</div>
+</figure>
+</div>
+<div class="section level2">
+<h2 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
 </h2>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete

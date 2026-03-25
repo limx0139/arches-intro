@@ -119,11 +119,11 @@
   Introduction to Arches Project
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 80%" class="percentage">
-    80%
+<aside class="col-md-12 lesson-progress"><div style="width: 75%" class="percentage">
+    75%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 80%" aria-valuenow="80" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 75%" aria-valuenow="75" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -354,21 +354,24 @@ operation on the database so interacting with resource model trees is
 still necessary.</p>
 <p>Here, we will use the Arches for Science Demo, which is a Arches
 instance designed to manage heritage science data: <a href="https://afsdemo.archesproject.org" class="external-link uri">https://afsdemo.archesproject.org</a></p>
-<p>This Demo contains information about research done on heritage
+<figure><img src="fig/04-01-Arches_for_Science.png" alt="Arches for Science Home Page" class="figure mx-auto d-block"><div class="figcaption">Arches for Science Home Page</div>
+</figure><p>This Demo contains information about research done on heritage
 ceramic artefacts using the Arches for Science Resource Package.</p>
-<p>To note, modifications to Arches Demos are local to each session, so
-while we can edit the database to have a feel for the software, no one
-else can see our changes and they will be reset when we leave the
-webpage. On an actual Arches installation, changes made to the database
-will be persistent.</p>
+<p>As previously mentioned, modifications to Arches Demos are local to
+each session, so while we can edit the database to have a feel for the
+software, no one else can see our changes and they will be reset when we
+leave the webpage. On an actual Arches installation, changes made to the
+database will be persistent.</p>
 <div class="section level2">
 <h2 id="using-workflow">Using Workflow<a class="anchor" aria-label="anchor" href="#using-workflow"></a></h2>
-<p>Lets record a scientific project onto the database. First, we
-navigate to find the list of Projects in the database.</p>
-<!-- ![Projects](fig/04-02-Projects.png) -->
-<p>We find that projects have a name, a description, a list of physical
+<p>Looking at the Arches for Science Demo, Harry decides to try to add a
+project into the database using Workflows. First, he searches for active
+projects in the database:</p>
+<figure><img src="fig/04-02-Projects.png" alt="Projects" class="figure mx-auto d-block"><div class="figcaption">Projects</div>
+</figure><p>We find that projects have a name, a description, a list of physical
 objects involved, a start date, and a team.</p>
-<p>We are tasked with recording a new project onto the database:</p>
+<p>Harry writes up some information for a possible project that could be
+added to the database:</p>
 <ul><li>This project investigates the material composition of ceramics
 around different areas of the world to establish possible connections
 between pottery making methods across different communities.</li>
@@ -376,25 +379,39 @@ between pottery making methods across different communities.</li>
 Pottery Heritage.</li>
 <li>The name of the project is : Necessary Rudiments for Robust Ceramic
 Making Methods</li>
+<li>The scale of the project is : initiative</li>
 <li>Earliest Start Date is 11 March 2026.</li>
 <li>Individuals involved are Wendy Rigter, Peter Grave and Ben
 Marsh.</li>
-<li>The Pottery objects that are studied:</li>
-</ul><table class="table"><thead><tr><th>List.</th>
-<th align="center">Object</th>
-<th align="right">Location</th>
-</tr></thead><tbody><tr><td>1</td>
-<td align="center">Sherd 782</td>
-<td align="right">Kinet Höyük</td>
-</tr><tr><td>2</td>
-<td align="center">centered</td>
-<td align="right">$12</td>
-</tr><tr><td>3</td>
-<td align="center">are neat</td>
-<td align="right">$1</td>
-</tr></tbody></table></div>
+<li>The Pottery objects that are studied are: Sherd 782 and Sherd
+1617.</li>
+</ul><p>In order to add the project, here’s what we need to do:</p>
+<figure><img src="fig/04-04-New_Project.png" alt="New Project" class="figure mx-auto d-block"><div class="figcaption">New Project</div>
+</figure><ul><li>First, navigate to the workflows tab on the sidebar and create a new
+project.</li>
+</ul><figure><img src="fig/04-05-Project_Workflow.png" alt="alt text" class="figure mx-auto d-block"><div class="figcaption">alt text</div>
+</figure><ul><li>Input the information accordingly.</li>
+</ul><figure><img src="fig/04-06-Workflow_Summary.png" alt="Workflow Summary" class="figure mx-auto d-block"><div class="figcaption">Workflow Summary</div>
+</figure><ul><li>Finally on the Summary tab, verify that all the information written
+is correct and complete the workflow.</li>
+</ul><p>Now the project is saved on the database, we can access it by search
+it up accordingly:</p>
+<figure><img src="fig/04-07-Database_Modified.png" alt="Database Modified" class="figure mx-auto d-block"><div class="figcaption">Database Modified</div>
+</figure></div>
 <div class="section level2">
 <h2 id="modifying-entries-manually">Modifying Entries Manually<a class="anchor" aria-label="anchor" href="#modifying-entries-manually"></a></h2>
+<p>Say some time has past and we have completed our project and we want
+to update our database to reflect that. There is no workflow made to
+update the end date of a project, and it would not make much sense to do
+so anyway, as it ought to be a simple task. We will need to directly
+modify the resource to reflect this change.</p>
+<p>Search for our project in the database and when you find it, click on
+the edit button on it. Navigate to the node storing start and end dates
+and add the end date appropriately.</p>
+<figure><img src="fig/04-08-Database_Modification.png" alt="End Date" class="figure mx-auto d-block"><div class="figcaption">End Date</div>
+</figure></div>
+<div class="section level2">
+<h2 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a></h2>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
