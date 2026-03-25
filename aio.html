@@ -497,7 +497,7 @@ any links that you are not going to use.
 <h3 class="card-title">Objectives</h3>
 <ul>
 <li>Perform basic operations on available Arches Demos.</li>
-<li>Look for Resources, modify resources</li>
+<li>Exercise Reading (searching for) resources on the Arches Demo.</li>
 </ul>
 </div>
 </div>
@@ -582,16 +582,44 @@ such a list filtering for relations to the Edwardian era in our
 search.</p>
 <figure><img src="fig/02-08-Edwardian_Rail.png" alt="Find all Edwardian Rails" class="figure mx-auto d-block"><div class="figcaption">Find all Edwardian Rails</div>
 </figure><p>Using relations, we find four such that satisfy our conditions
-railway stations from the list: Kentish Town, Belsize Park, Chalk Hill
-and Russell Square Underground Stations amd Harry is off for his
-audit!</p>
+railway stations from the list:</p>
+<ul>
+<li>Kentish Town</li>
+<li>Belsize Park</li>
+<li>Chalk Hill</li>
+<li>Russell Square Underground Stations</li>
+</ul>
+<p>And with the right information, Harry is off for his audit!</p>
 </section><section><h2 class="section-heading" id="challenge-find-a-resource-from-given-parameters-">Challenge: Find a Resource from given parameters.<a class="anchor" aria-label="anchor" href="#challenge-find-a-resource-from-given-parameters-"></a>
 </h2>
 <hr class="half-width">
 <p>Finally, as a challenge on the current dataset, look for a Victorian
 era church in the Norwood area that was curiously constructed from
 concrete.</p>
-</section><section><h2 class="section-heading" id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
+<table class="table">
+<thead><tr>
+<th align="center">Category</th>
+<th align="center">Data</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="center">Era</td>
+<td align="center">Victorian</td>
+</tr>
+<tr>
+<td align="center">Building</td>
+<td align="center">Church</td>
+</tr>
+<tr>
+<td align="center">Location</td>
+<td align="center">Norwood</td>
+</tr>
+<tr>
+<td align="center">Percularities</td>
+<td align="center">Concrete construction</td>
+</tr>
+</tbody>
+</table></section><section><h2 class="section-heading" id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
 </h2>
 <hr class="half-width">
 <p>Of course, there are many other ways we could try to look for these
@@ -762,17 +790,17 @@ database?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Add and modify resources to the database through workflows and
-direct interaction with models.</li>
+<li>Exercise Creating, Updating and Deleting resources on the Arches
+Demo.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="section level1">
-<h1 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
-</h1>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<hr class="half-width">
 <p>So far, we have covered how you would go about searching for
 information in Arches, but a database is only as good as its ability to
 keep itself up to date. In this lesson, we will learn to modify data on
@@ -796,9 +824,9 @@ each session, so while we can edit the database to have a feel for the
 software, no one else can see our changes and they will be reset when we
 leave the webpage. On an actual Arches installation, changes made to the
 database will be persistent.</p>
-<div class="section level2">
-<h2 id="using-workflow">Using Workflow<a class="anchor" aria-label="anchor" href="#using-workflow"></a>
+</section><section><h2 class="section-heading" id="using-workflow">Using Workflow<a class="anchor" aria-label="anchor" href="#using-workflow"></a>
 </h2>
+<hr class="half-width">
 <p>Looking at the Arches for Science Demo, Harry decides to try to add a
 project into the database using Workflows. First, he searches for active
 projects in the database:</p>
@@ -840,11 +868,9 @@ is correct and complete the workflow.</li>
 <p>Now the project is saved on the database, we can access it by search
 it up accordingly:</p>
 <figure><img src="fig/04-07-Database_Modified.png" alt="Database Modified" class="figure mx-auto d-block"><div class="figcaption">Database Modified</div>
-</figure>
-</div>
-<div class="section level2">
-<h2 id="modifying-entries-manually">Modifying Entries Manually<a class="anchor" aria-label="anchor" href="#modifying-entries-manually"></a>
+</figure></section><section><h2 class="section-heading" id="modifying-entries-manually">Modifying Entries Manually<a class="anchor" aria-label="anchor" href="#modifying-entries-manually"></a>
 </h2>
+<hr class="half-width">
 <p>Say some time has past and we have completed our project and we want
 to update our database to reflect that. There is no workflow made to
 update the end date of a project, and it would not make much sense to do
@@ -854,17 +880,35 @@ modify the resource to reflect this change.</p>
 the edit button on it. Navigate to the node storing start and end dates
 and add the end date appropriately.</p>
 <figure><img src="fig/04-08-Database_Modification.png" alt="End Date" class="figure mx-auto d-block"><div class="figcaption">End Date</div>
-</figure>
-</div>
-<div class="section level2">
-<h2 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
+</figure></section><section><h2 class="section-heading" id="deleting-a-resource">Deleting a Resource<a class="anchor" aria-label="anchor" href="#deleting-a-resource"></a>
 </h2>
-<!--
+<hr class="half-width">
+<p>As our access of the Arches for Science Demo is transient, leaving
+the page will revert all our changes to it. This will not be the case
+for our own databases.</p>
+<p>Regardless, deleting data is an essential part of database
+maintanance and Arches provides a simple way to do so as well.</p>
+<p>For instance, if it is decided that the project, Necessary Rudiments
+for Robust Ceramic Making Methods, is cancelled for any reason, we may
+decide the best way to represent this is to remove the project from the
+database.</p>
+<p>To do so: - First, we search for the resource accordingly. - Click on
+the edit button to open the popup for the resource. <img src="fig/04-09-Delete_Resource.png" alt="Delete Resource" class="figure"></p>
+<ul>
+<li>Click on the “Manage” button on the top left to get the left tab to
+appear. The option to delete the resource should be the first option on
+the list.</li>
+</ul></section><section><h2 class="section-heading" id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
+</h2>
+<hr class="half-width">
+<p>This process of Creating, Reading (which was done in lesson 2),
+Updating and Deleting (CRUD) resources is the rudiment in all database
+management and is essential to keeping and maintaining the Arches
+Database. <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
- -->
-</div>
-</div></section>
+ --></p>
+</section></section>
 </div>
     </main>
 </div>
