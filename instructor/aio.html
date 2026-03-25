@@ -266,6 +266,30 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="03-Database_Knowhow.html">3. Database Basics</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="04-Database_Interaction.html">4. Database Interaction</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -535,7 +559,245 @@ concrete.</p>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  --></p>
-</section></section>
+</section></section><section id="aio-03-Database_Knowhow"><p>Content from <a href="03-Database_Knowhow.html">Database Basics</a></p>
+<hr>
+<p>Last updated on 2026-03-25 |
+
+        <a href="https://github.com/limx0139/arches-intro/edit/main/episodes/03-Database_Knowhow.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How does the Arches Database work?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Learn the structure of the Arches Database.</li>
+<li>Understand how its customisability allows for flexible data storage
+in just about any format.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level1">
+<h1 id="the-arches-database-">The Arches Database.<a class="anchor" aria-label="anchor" href="#the-arches-database-"></a>
+</h1>
+<p>A database is simply a way to store persistent information on a
+server, information that is shared and can be modified between users and
+periods of time. Databases are used all over web development, even on
+Arches itself, several discrete databases are used. For instance, to
+store login credentials and most importantly for heritage data
+storage.</p>
+<p>While it is not strictly necessary to have a complete understanding
+of the database as an end-user of Arches, some understanding of it is
+beneficial to understand its flexibility in design for heritage storage
+solutions.</p>
+<p>The Arches database uses a graphical method of storing data that is
+proprietary to Arches and designed specifically for the use on heritage
+data in mind.</p>
+<!-- ![Arches Structure](fig/03-01-Arches_Structure_v1.png) -->
+<p>The above diagram shows a hierarchical structure of the Arches
+database.</p>
+<p>The Resource Package is the database structure itself, tailored for
+each use case. A Resource Model is the structure of a type of entry in
+the database, for instance, a person or an organisation or a artefact.
+Resource Models are designed to fit the data available in the raw data
+used, if we have information on when an organisation was formed and when
+it is disbanded, the Resource Model for an organisation may include
+fields to reflect that. A Resource is an instance of an object adhering
+to a particular Resource Model. Jon Doe being an instance of a Person
+Resource Model for instance. An Arches installation has 1 Resource
+Package containing multiple Resource Models, each of which will contain
+multiple Resources.</p>
+<p>For instance, suppose we were to define a database to store the list
+of passengers and crew abroad the Titanic. We might want to add Resource
+Models to fit the people abroad the ship, along with information about
+their names, places of origin, whether they survived the sinking, etc.
+We may also include information about the different lodgings abroad the
+ship, as well as the different types of passangers as well as recovered
+artefacts from that time period. A rudimentary design for this may look
+like this.</p>
+<!-- ![Example: The Titanic](fig/03-02-Titanic_Example.png) -->
+<p>This Resource Package has 3 different Resource Models, for People,
+the Lodgings available as well as the Groups involved on the ship. Of
+which, instances of the lodging may include First, Second and Third
+Class rooms, and the Groups include Passengers and Crew. These are
+Instances of Resource Models. We also illustrate the structure of the
+Resource Model for People to contain their names, lodgings, group and
+fate.</p>
+<p>Under this structure, an instance of a Person recorded in the
+database may include their name, the type of room they were staying in,
+whether they were passenger or crew and whether they survive the
+tragedy.</p>
+<p>Naturally, this is not exhaustive. Other relevant categories such as
+nationality or gender and familiar relations can be added. We can also
+include workers of Harland and Wolff, the company responsible for the
+construction of the ship, as well as artefacts associated with and
+retrieved from the ship.</p>
+<p>So, a relationship graph for a person resource in this database may
+look like this:</p>
+<!-- ![Jon Doe's Relations](fig/03-03-Person.png) -->
+<p>This describes a John Doe who is male, Irish, boarded the ship as a
+member of the crew, stayed in third-class lodging, who died in the
+sinking of the ship.</p>
+</div>
+<div class="section level1">
+<h1 id="exercise-intuition-for-resource-models-">Exercise: Intuition for Resource Models.<a class="anchor" aria-label="anchor" href="#exercise-intuition-for-resource-models-"></a>
+</h1>
+<p>In this section, we shall provide a description of an item and as an
+exercise, we ask how might a Resource Model of this item would look
+like.</p>
+<!-- ![Pokemon Card: Pikachu](fig/Pokemon/Pikachu.png) -->
+<p>(Pen and Paper) A card collector is interested in keeping track of
+his collection of Pokemon cards digitally. According to the image of the
+Pokemon Card above, how might the Resource Model for a Pokemon Card look
+like?</p>
+<p>Answer:</p>
+</div>
+<div class="section level1">
+<h1 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
+</h1>
+<p>As has been demonstrated, the Arches database is flexible and
+malleble to varied needs, even outside of heritage preservation and
+research. While as end-users, we do not directly interact with database
+structure, it is useful to know how it works and why it is designed in
+this way. <!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ --></p>
+</div></section><section id="aio-04-Database_Interaction"><p>Content from <a href="04-Database_Interaction.html">Database Interaction</a></p>
+<hr>
+<p>Last updated on 2026-03-25 |
+
+        <a href="https://github.com/limx0139/arches-intro/edit/main/episodes/04-Database_Interaction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 15 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How to add, modify and maintain Resources in the Arches
+database?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Add and modify resources to the database through workflows and
+direct interaction with models.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level1">
+<h1 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h1>
+<p>So far, we have covered how you would go about searching for
+information in Arches, but a database is only as good as its ability to
+keep itself up to date. In this lesson, we will learn to modify data on
+the Arches database.</p>
+<p>Arches provides 2 ways to modify information in the database, through
+modifying the resource model tree directly or through workflows.</p>
+<p><a href="https://arches.readthedocs.io/en/latest/developing/extending/extensions/workflows/" class="external-link uri">https://arches.readthedocs.io/en/latest/developing/extending/extensions/workflows/</a></p>
+<p>Workflows are a streamlined way to modify the database designed to
+abstract away from working with Arches Resource Models themselves, which
+can end up being quite unwieldy.</p>
+<p>However, workflows may not be implemented for every necessary
+operation on the database so interacting with resource model trees is
+still necessary.</p>
+<p>Here, we will use the Arches for Science Demo, which is a Arches
+instance designed to manage heritage science data: <a href="https://afsdemo.archesproject.org" class="external-link uri">https://afsdemo.archesproject.org</a></p>
+<p>This Demo contains information about research done on heritage
+ceramic artefacts using the Arches for Science Resource Package.</p>
+<p>To note, modifications to Arches Demos are local to each session, so
+while we can edit the database to have a feel for the software, no one
+else can see our changes and they will be reset when we leave the
+webpage. On an actual Arches installation, changes made to the database
+will be persistent.</p>
+<div class="section level2">
+<h2 id="using-workflow">Using Workflow<a class="anchor" aria-label="anchor" href="#using-workflow"></a>
+</h2>
+<p>Lets record a scientific project onto the database. First, we
+navigate to find the list of Projects in the database.</p>
+<!-- ![Projects](fig/04-02-Projects.png) -->
+<p>We find that projects have a name, a description, a list of physical
+objects involved, a start date, and a team.</p>
+<p>We are tasked with recording a new project onto the database:</p>
+<ul>
+<li>This project investigates the material composition of ceramics
+around different areas of the world to establish possible connections
+between pottery making methods across different communities.</li>
+<li>The project is kindly funded by the International Foundation for
+Pottery Heritage.</li>
+<li>The name of the project is : Necessary Rudiments for Robust Ceramic
+Making Methods</li>
+<li>Earliest Start Date is 11 March 2026.</li>
+<li>Individuals involved are Wendy Rigter, Peter Grave and Ben
+Marsh.</li>
+<li>The Pottery objects that are studied:</li>
+</ul>
+<table class="table">
+<thead><tr>
+<th>List.</th>
+<th align="center">Object</th>
+<th align="right">Location</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td align="center">Sherd 782</td>
+<td align="right">Kinet Höyük</td>
+</tr>
+<tr>
+<td>2</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
+</tr>
+<tr>
+<td>3</td>
+<td align="center">are neat</td>
+<td align="right">$1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section level2">
+<h2 id="modifying-entries-manually">Modifying Entries Manually<a class="anchor" aria-label="anchor" href="#modifying-entries-manually"></a>
+</h2>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
+</div></section>
 </div>
     </main>
 </div>
