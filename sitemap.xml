@@ -1,117 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://limx0139.github.io/work-demo/01-Intro_to_Arches.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/01-Intro_to_Arches.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/02-Navigating_Arches_UI.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/01-What_is_Arches.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/03-Understanding_Arches_Database.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/02-Navigate_the_UI.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/04-Database_Interaction.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/02-Navigating_Arches_UI.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/404.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/03-Understanding_Arches_Database.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/CODE_OF_CONDUCT.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/04-Database_Interaction.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/LICENSE.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/404.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/TODO.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/aio.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/citation.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/TODO.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/deletethis.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/aio.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/images.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/citation.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/index.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/deletethis.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/01-Intro_to_Arches.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/images.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/02-Navigating_Arches_UI.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/index.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/03-Understanding_Arches_Database.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/01-Intro_to_Arches.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/04-Database_Interaction.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/01-What_is_Arches.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/404.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/02-Navigate_the_UI.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/02-Navigating_Arches_UI.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/LICENSE.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/03-Understanding_Arches_Database.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/TODO.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/04-Database_Interaction.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/aio.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/citation.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/deletethis.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/images.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/TODO.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/index.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/instructor-notes.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/citation.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/introduction.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/deletethis.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/key-points.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/profiles.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/index.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/reference.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor/resources.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/introduction.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/instructor-notes.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/key-points.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/introduction.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/profiles.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/key-points.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/reference.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/profiles.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor/resources.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/reference.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://limx0139.github.io/work-demo/resources.html</loc>
+    <loc>https://limx0139.github.io/arches-intro/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://limx0139.github.io/arches-intro/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://limx0139.github.io/arches-intro/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://limx0139.github.io/arches-intro/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://limx0139.github.io/arches-intro/resources.html</loc>
   </url>
 </urlset>
