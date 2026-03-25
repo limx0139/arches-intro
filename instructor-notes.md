@@ -2,6 +2,9 @@
 title: 'Instructor Notes'
 ---
 
+
+## Setup Recommendations
+
 This will go through some notes and arches installation troubleshooting one might encounter with the programme.
 
 Arches installation and Setup.
@@ -9,6 +12,18 @@ Arches installation and Setup.
 Recommend to have an Arches server set up for episodes 6,7.
 
 Clean installation after lesson.
+
+## Episode 2
+
+Challenge Solution:
+
+
+![alt text](../episodes/fig/03-04-Coin_Structure.png)
+
+Once again, there are many ways to find this resource.
+-
+
+
 
 ## Episode 3
 
