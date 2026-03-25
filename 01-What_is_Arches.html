@@ -207,12 +207,22 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         1. What is Arches?
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#introduction">Introduction</a></li>
+<li><a href="#what-is-arches-and-why-use-it">What is Arches and why use it?</a></li>
+<li><a href="#arches-permissions.">Arches Permissions.</a></li>
+<li><a href="#arches-functionality.">Arches Functionality.</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -336,9 +346,8 @@
 </div>
 </div>
 </div>
-<div class="section level1">
-<h1 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a></h1>
-<p>Put yourself in the shoes of a collector of cards, or of antiques, of
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a></h2>
+<hr class="half-width"><p>Put yourself in the shoes of a collector of cards, or of antiques, of
 old misprinted coins, or rare one-of-a-kind stamps. Physical items of
 sentimental, cultural or heritage value to yourself or to society. Be it
 as an individual or group or an organisation dedicated to the collection
@@ -348,7 +357,8 @@ problems of scale attributed to physical collections:</p>
 climate-regulated warehouses to store and preserve their massive
 collection of delicate treasures.</li>
 </ul><p align="center">
-<img alt="Warehouse for Minnesota History Center, wikicommons" src="fig/01-01-what_is_arches.png" width="1000" class="figure"></p>
+<img alt="Warehouse for Minnesota History Center, wikicommons" src="fig/Misc/3D_Collections_Storage,_Minnesota_History_Center-wikicommons.jpeg" width="1000" class="figure"></p>
+<p>Warehouse for Minnesota History Center</p>
 <ul><li><p>It is impossible to display much, or even a majority of the
 collection, due to lack of space in museums proper. For instance, the
 National History Museum and many other museums in London only displays
@@ -364,15 +374,14 @@ digital solutions to digitalising museums, though the cost may be
 prohibitive to larger museums.</p>
 <p align="center">
 <img alt="Museu Fonografico Tuneril, a digital museum on Facebook, documenting CD records, wikicommons" src="fig/Misc/Museu_Fonografico_Tuneril_digital_museum_wikicommons.png" width="1000" class="figure"></p>
-<p>Link to the museum: <a href="https://www.facebook.com/MuseuFonoTuneril/" class="external-link uri">https://www.facebook.com/MuseuFonoTuneril/</a></p>
+<p>Museu Fonografico Tuneril digital collections. Link to the museum: <a href="https://www.facebook.com/MuseuFonoTuneril/" class="external-link uri">https://www.facebook.com/MuseuFonoTuneril/</a></p>
 <p>A museum may instead host its own digital heritage, as such. But this
 way of storage may be insufficient for museums that need to store more
 complex information, searchable dates and links between objects to
 enhance the experience of browsing through the museum. This is where
 Arches offers a solution.</p>
-<div class="section level2">
-<h2 id="what-is-arches-and-why-use-it">What is Arches and why use it?<a class="anchor" aria-label="anchor" href="#what-is-arches-and-why-use-it"></a></h2>
-<p>The Arches Project was created as a collaboration between Getty
+</section><section><h2 class="section-heading" id="what-is-arches-and-why-use-it">What is Arches and why use it?<a class="anchor" aria-label="anchor" href="#what-is-arches-and-why-use-it"></a></h2>
+<hr class="half-width"><p>The Arches Project was created as a collaboration between Getty
 Conservation Institute and World Monuments Fund as a low cost digital
 inventory, focusing on massive customisation and offering modern
 solutons to heritage research and curation.</p>
@@ -380,47 +389,32 @@ solutons to heritage research and curation.</p>
 solutions to digitalising heritage but Arches differs from them as it is
 open-source. Arches has a international collaborative community
 passionately working to update and improve the Arches experience for all
-users.</p>
-<p>Moreover, as an open-source project, users of Arches are not beholden
-to any licensing fees at all. The only necessary cost of Arches is the
-costs to run the server. This is ideal for small museums, collectors or
-hobbists to digitalise collections locally or on a server for minimal
-cost.</p>
+users. Moreover, documentation of Arches is also available for public
+access, so anyone interested about Arches can learn more about it and
+help is available online to construct your own installation of it.
+Arches also does not charge licensing fees at all. The only necessary
+cost of Arches is the costs to run the server. This is ideal for small
+museums, collectors or hobbists to digitalise collections locally or on
+a server for minimal cost.</p>
 <p>In this lesson, we will follow the character of Hans, an avid
 collector of rare European coins, boasting over 500 unique coins in his
 inventory. Eying to share his love of old coins and their rich and
 varied histories to the world, Hans has set up an Arches installation on
 a server he owns and looks to design and populate his digital
 collection.</p>
-<div class="row">
-<div class="column">
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="op">&lt;</span>img <span class="va">src</span><span class="op">=</span><span class="st">"fig/Misc/Smiling_cartoon_man_with_thumbs_up_using_a_computer_wikicommons.jpg"</span> <span class="va">alt</span><span class="op">=</span><span class="st">"Hans"</span> <span class="va">style</span><span class="op">=</span><span class="st">"width:50%"</span><span class="op">&gt;</span></span></code></pre>
-</div>
-</div>
-<div class="column">
-<div class="codewrapper sourceCode" id="cb2">
-<h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="op">&lt;</span>img <span class="va">src</span><span class="op">=</span><span class="st">"fig/Misc/Piéce_2_euros_commémorative_wikicommons.jpg"</span> <span class="va">alt</span><span class="op">=</span><span class="st">"Coin Collection"</span> <span class="va">style</span><span class="op">=</span><span class="st">"width:50%"</span><span class="op">&gt;</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="section level2">
-<h2 id="arches-permissions-">Arches Permissions.<a class="anchor" aria-label="anchor" href="#arches-permissions-"></a></h2>
-<p>Arches allows for groups with different levels of permissions to use
+<table class="table"><colgroup><col width="50%"><col width="50%"></colgroup><thead><tr><th align="center">Hans the Coin Collector</th>
+<th align="center">EU Coins</th>
+</tr></thead><tbody><tr><td align="center"><img src="fig/Misc/Smiling_cartoon_man_with_thumbs_up_using_a_computer_wikicommons.jpg" alt="Hans the Coin Collector" class="figure"></td>
+<td align="center"><img src="fig/Misc/Pi%C3%A9ce_2_euros_comm%C3%A9morative_wikicommons.jpg" alt="EU Coins" class="figure"></td>
+</tr></tbody></table></section><section><h2 class="section-heading" id="arches-permissions-">Arches Permissions.<a class="anchor" aria-label="anchor" href="#arches-permissions-"></a></h2>
+<hr class="half-width"><p>Arches allows for groups with different levels of permissions to use
 it. In this course, we point out the permissions of the user and admin
 groups, noting also that permissions can be manually updated per
 installation. A large part of this course will involve end-user
 permissions, when more advanced functionalities are referenced, it will
 be done explicitly.</p>
-</div>
-<div class="section level2">
-<h2 id="arches-functionality-">Arches Functionality.<a class="anchor" aria-label="anchor" href="#arches-functionality-"></a></h2>
-<p>Arches is a database that can store and manage a wide assortment of
+</section><section><h2 class="section-heading" id="arches-functionality-">Arches Functionality.<a class="anchor" aria-label="anchor" href="#arches-functionality-"></a></h2>
+<hr class="half-width"><p>Arches is a database that can store and manage a wide assortment of
 datasets. Looking up and updating items stored in the database is easy
 as it supports keyword, type and geospatial searches. Arches also stores
 relational data to allow easy access to items related to each other.
@@ -446,12 +440,7 @@ Arches.</p>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</div>
-</div>
-
-
-
-      </div> <!-- / div.lesson-content -->
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="02-Navigate_the_UI.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
