@@ -119,11 +119,11 @@
   Introduction to Arches Project
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 46%" class="percentage">
-    46%
+<aside class="col-md-12 lesson-progress"><div style="width: 43%" class="percentage">
+    43%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 46%" aria-valuenow="46" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 43%" aria-valuenow="43" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -247,6 +247,7 @@
         <ul><li><a href="#introduction">Introduction</a></li>
 <li><a href="#using-workflow">Using Workflow</a></li>
 <li><a href="#modifying-entries-manually">Modifying Entries Manually</a></li>
+<li><a href="#interacting-with-location-data">Interacting with Location Data</a></li>
 <li><a href="#deleting-a-resource">Deleting a Resource</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
         </ul></div><!--/div.accordion-body-->
@@ -331,7 +332,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Database Interaction</h1>
-        <p>Last updated on 2026-03-25 |
+        <p>Last updated on 2026-03-26 |
 
         <a href="https://github.com/limx0139/arches-intro/edit/main/episodes/04-Database_Interaction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -436,7 +437,29 @@ modify the resource to reflect this change.</p>
 the edit button on it. Navigate to the node storing start and end dates
 and add the end date appropriately.</p>
 <figure><img src="../fig/04-08-Database_Modification.png" alt="End Date" class="figure mx-auto d-block"><div class="figcaption">End Date</div>
-</figure></section><section><h2 class="section-heading" id="deleting-a-resource">Deleting a Resource<a class="anchor" aria-label="anchor" href="#deleting-a-resource"></a></h2>
+</figure></section><section><h2 class="section-heading" id="interacting-with-location-data">Interacting with Location Data<a class="anchor" aria-label="anchor" href="#interacting-with-location-data"></a></h2>
+<hr class="half-width"><p>In this section, we will go through another important feature of
+Arches: updating the map. In Arches, Resource Models may contain
+geospatial information. This is a reference to the location of a map.
+Resource Models with this attribute can be displayed on the map.</p>
+<p>In this section, we will go through adding a resource with geospatial
+information onto the database.</p>
+<p>For instance, due to recent discoveries of Etruscan pottery scattered
+about Italy, we are tasked to add Italy as a major location for research
+onto the Arches for Science database.</p>
+<p>This is what we would do to add Italy (or any other location) to the
+database: - Create a new Place Resource. <img src="../fig/04-10_Add_Place.png" alt="alt text" class="figure"> - Fill the information
+according to what is required. <img src="../fig/04-11_Fill_Place.png" alt="alt text" class="figure"> - On the page containing geospatial information, we
+use the tool bar to add Italy onto the map. Depending on the level of
+detail required, we can add either add a point on the map or box out the
+landmass of Italy. <img src="../fig/04-12_Geospatial_Information.png" alt="alt text" class="figure"> - To encircle the landmass of Italy, click on “Add a
+new feature” and select “Add Polygon”. This will let you select points
+on the map to form a shape encircling Italy. <img src="../fig/04-13_Add_Polygon.png" alt="alt text" class="figure"> - Once the shape
+accurately enough encircles Italy, we save the feature and add the
+resource. <img src="../fig/04-14_Italy_Encircled.png" alt="alt text" class="figure"></p>
+<p>Now we can head back to the search bar and find that Italy has been
+added to the map.</p>
+</section><section><h2 class="section-heading" id="deleting-a-resource">Deleting a Resource<a class="anchor" aria-label="anchor" href="#deleting-a-resource"></a></h2>
 <hr class="half-width"><p>As our access of the Arches for Science Demo is transient, leaving
 the page will revert all our changes to it. This will not be the case
 for our own databases.</p>
@@ -519,7 +542,7 @@ any links that you are not going to use.
   "url": "https://limx0139.github.io/arches-intro/instructor/04-Database_Interaction.html",
   "identifier": "https://limx0139.github.io/arches-intro/instructor/04-Database_Interaction.html",
   "dateCreated": "2026-03-26",
-  "dateModified": "2026-03-25",
+  "dateModified": "2026-03-26",
   "datePublished": "2026-03-26"
 }
 
