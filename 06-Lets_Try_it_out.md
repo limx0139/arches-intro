@@ -1,7 +1,7 @@
 ---
 title: "Let's Try it out"
 teaching: 5 # teaching time in minutes
-exercises: 15 # exercise time in minutes
+exercises: 25 # exercise time in minutes
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -28,7 +28,17 @@ Let's get back to Harry, who after learning the Arches basics, is now ready to p
 Recap:
 This means that there are 3 different types of resources in the database, Designers, Countries and the Coins themselves. Coins store information on its Name, Design, Mintage and Photoes of the coin as well as relations to Designers and Countries.
 
-You will find some information on these resources in the tables below:
+We will first need to add the following countries to the database under the "Countries" Resource Model:
+- Belgium
+- Croatia
+- Latvia
+- Ireland
+
+N.B. as information added to the database is persistent and shared here, we may want to allocate tasks so students do not end up adding the same resource. Feel free to add other countries into the database if all the stated countries are taken.
+
+## Task
+
+You will find some information on these resources in a table as well as a download link for some photos below:
 
 | Name        | Design      | Mint Date   | Mint Quantity| Face Value  | Actual Value |Designer  | Country      |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |----------- | ----------- |
@@ -41,9 +51,13 @@ You will find some information on these resources in the tables below:
 | Irish 1 Euro      | Celtic harp       | 2003      | 30000000       | 1      | 1       | Jarlath Hayes      | Ireland       |
 | Irish 50 cents      | Celtic harp       | 2003      | 10000000       | .50      | .50       | Jarlath Hayes      | Ireland       |
 | Irish 5 cents      | Celtic harp       | 2003      | 5000000       | .05      | .05       | Jarlath Hayes      | Ireland       |
-| Brussels Atomium Commemerative Coin      | An image of the Atomium in the center of the coin and the engraver’s initials to right with two mintmarks near the base. The outer ring of the coin features the 12 stars of the European Union, the letter ‘B’ and the year of mintage ‘2006’.       | 2006      | 20000       | 2      | 20       | Luc Luycx      | Belgium       |
+| Brussels Atomium Commemerative Coin      | Image of the Atomium in the center of the coin and the engraver’s initials to right with two mintmarks near the base.  | 2006      | 20000       | 2      | 20       | Luc Luycx      | Belgium       |
+
+And here is the download link for the photos of coins.
+<a href="fig/Coins/Coin_Photos.zip" download>Click to Download Photos for the coins</a>
+
+The task is to write these coins into the Arches database.
 
 
-<a href="fig/Coins/Coin_Photos.zip" download>Click to Download</a>
 
 
