@@ -81,6 +81,30 @@ Search for our project in the database and when you find it, click on the edit b
 
 ![End Date](fig/04-08-Database_Modification.png)
 
+
+## Interacting with Location Data
+
+In this section, we will go through another important feature of Arches: updating the map. In Arches, Resource Models may contain geospatial information. This is a reference to the location of a map. Resource Models with this attribute can be displayed on the map. 
+
+In this section, we will go through adding a resource with geospatial information onto the database.
+
+For instance, due to recent discoveries of Etruscan pottery scattered about Italy, we are tasked to add Italy as a major location for research onto the Arches for Science database.
+
+This is what we would do to add Italy (or any other location) to the database:
+- Create a new Place Resource.
+![alt text](fig/04-10_Add_Place.png)
+- Fill the information according to what is required.
+![alt text](fig/04-11_Fill_Place.png)
+- On the page containing geospatial information, we use the tool bar to add Italy onto the map. Depending on the level of detail required, we can add either add a point on the map or box out the landmass of Italy.
+![alt text](fig/04-12_Geospatial_Information.png)
+- To encircle the landmass of Italy, click on "Add a new feature" and select "Add Polygon". This will let you select points on the map to form a shape encircling Italy.
+![alt text](fig/04-13_Add_Polygon.png)
+- Once the shape accurately enough encircles Italy, we save the feature and add the resource.
+![alt text](fig/04-14_Italy_Encircled.png)
+
+Now we can head back to the search bar and find that Italy has been added to the map.
+
+
 ## Deleting a Resource
 
 As our access of the Arches for Science Demo is transient, leaving the page will revert all our changes to it. This will not be the case for our own databases. 
@@ -95,8 +119,6 @@ To do so:
 ![Delete Resource](fig/04-09-Delete_Resource.png)
 
 - Click on the "Manage" button on the top left to get the left tab to appear. The option to delete the resource should be the first option on the list.
-
-
 
 ## Conclusion
 
