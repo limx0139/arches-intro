@@ -18,10 +18,12 @@ Clean installation after lesson.
 Challenge Solution:
 
 
-![alt text](../episodes/fig/03-04-Coin_Structure.png)
+![alt text](../episodes/fig/02-09-Challenge.png)
 
 Once again, there are many ways to find this resource.
--
+- Searching up concrete and church as separate keywords work.
+- Finding it on the map close to Crystal Palace also works.
+The key is finding this specific church from the dataset.
 
 
 
