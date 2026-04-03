@@ -29,6 +29,8 @@ https://en.numista.com/537214
 
 ## References
 
+Titanic Image, Retrieved at https://commons.wikimedia.org/wiki/File:RMS_Titanic_3.jpg , credit: Francis Godolphin Osbourne Stuart, Wikimedia Commons
+
 3D_Collections_Storage,_Minnesota_History_Center-wikicommons - 
 Retrieved at https://commons.wikimedia.org/wiki/File:3D_Collections_Storage,_Minnesota_History_Center.jpg , credit: Heritage Preservation Department - MNHS, Wikimedia Commons
 
