@@ -52,7 +52,7 @@ In this lesson, we will follow the character of Harry, an avid collector of rare
 
 Harry the Coin Collector   |  EU Coins
 :-------------------------:|:-------------------------:
-![Hans the Coin Collector](fig/Misc/Smiling_cartoon_man_with_thumbs_up_using_a_computer_wikicommons.jpg)  |  ![EU Coins](fig/Misc/Piéce_2_euros_commémorative_wikicommons.jpg)
+![Harry the Coin Collector](fig/Misc/Smiling_cartoon_man_with_thumbs_up_using_a_computer_wikicommons.jpg)  |  ![EU Coins](fig/Misc/Piéce_2_euros_commémorative_wikicommons.jpg)
 
 
 ## Arches Functionality.

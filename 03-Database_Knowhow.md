@@ -16,17 +16,17 @@ exercises: 5 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Database Basics.
+## Database Basics
 
 A database is simply a way to store persistent information on a server, information that is shared and can be modified between users and periods of time. Databases are used all over web development, even on Arches itself, several discrete databases are used. For instance, to store login credentials and most importantly for heritage data storage. 
 
 A good database structure is good because it is well planned out enough and does not have to be changed. As such, an end-point user will likely not have to work with the Arches database structure all that much. Regardless, understanding of it is beneficial to understand its flexibility in design for heritage storage solutions as well as understand what the database can and cannot do. This is also important for Harry to design his rare coin database!
 
-![Harry thinking about his database](fig/Misc/Thinking_thought_bubble.png)
+![Harry thinking about his database](fig/Misc/Thinking_thought_bubble.png =x250) 
 
 Given the fact that designing the database involves deciding how data is stored, you can imagine that it would not exactly be ideal to redesign the database while there is data in it, as it would involve changing the structure of all resources currently stored in it. 
 
-## Arches Database.
+## Arches Database
 
 The Arches database uses a graphical method of storing data that is proprietary to Arches and designed specifically for the use on heritage data in mind.
 
