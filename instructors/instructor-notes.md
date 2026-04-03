@@ -7,11 +7,11 @@ title: 'Instructor Notes'
 
 This will go through some notes and arches installation troubleshooting one might encounter with the programme.
 
-Arches installation and Setup.
+It is recommended to have an production deployment of Arches set up for the lesson, with with Country and Coin Resource Models loaded, though the lesson can proceed without, omitting the episodes using the Arches installation.
 
-Recommend to have an Arches server set up for episodes 6,7.
+The Arches Documentation is the definitive guide for Arches installation and deployment.
 
-Clean installation after lesson.
+Bulk Data Manager has separate dependencies and needs to be enabled.
 
 ## Episode 2
 
