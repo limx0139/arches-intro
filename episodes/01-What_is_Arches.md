@@ -55,13 +55,5 @@ Harry the Coin Collector   |  EU Coins
 ![Harry the Coin Collector](fig/Misc/Smiling_cartoon_man_with_thumbs_up_using_a_computer_wikicommons.jpg)  |  ![EU Coins](fig/Misc/Piéce_2_euros_commémorative_wikicommons.jpg)
 
 
-## Arches Functionality.
-
-
-
-
-## Arches Permissions.
-
-Arches allows for groups with different levels of permissions to use it. In this  course, we point out the permissions of the user and admin groups, noting also that permissions can be manually updated per installation. A large part of this course will involve end-user permissions, when more advanced functionalities are referenced, it will be done explicitly. 
 
 
