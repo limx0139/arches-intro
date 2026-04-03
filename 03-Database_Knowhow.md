@@ -22,8 +22,8 @@ A database is simply a way to store persistent information on a server, informat
 
 A good database structure is good because it is well planned out enough and does not have to be changed. As such, an end-point user will likely not have to work with the Arches database structure all that much. Regardless, understanding of it is beneficial to understand its flexibility in design for heritage storage solutions as well as understand what the database can and cannot do. This is also important for Harry to design his rare coin database!
 
-![Harry thinking about his database](fig/Misc/Thinking_thought_bubble.png =x250) 
-
+<p align='center'>   <img alt="thinking" src="fig/Misc/Thinking_thought_bubble.png" width="200"/>
+</p>
 Given the fact that designing the database involves deciding how data is stored, you can imagine that it would not exactly be ideal to redesign the database while there is data in it, as it would involve changing the structure of all resources currently stored in it. 
 
 ## Arches Database
@@ -57,7 +57,8 @@ This describes a John Doe who is male, Irish, boarded the ship as a member of th
 In this section, we will help Harry design his database. He wants to put in as much information about the coins as possible. For inspiration he pulls out a coin from his wallet:
 
 <!-- ![Pokemon Card: Pikachu](fig/Pokemon/Pikachu.png) -->
-![Harry's Coin](fig/Misc/Back_of_Bulgarian_1_euro_coin.png)
+<p align='center'>   <img alt="Coin" src="fig/Misc/Back_of_Bulgarian_1_euro_coin.png" width="200"/>
+</p>
 
 It is a Bulgarian 1 Euro coin, minted in 2026 in Bulgaria, featuring Saint Ivan of Rila the patron saint of Bulgaria and founder of the Rila Monastery. This is  designed by Petar Stoikov, who has designed several other Bulgarian coins. Naturally, the coin is minted in Bulgaria, minted from copper and nicket. As it is minted recently and as it is minted for currency, the mintage is in the millions. Given that the coin is not rare, its value is the same as its face value, 1 Euro.
 
