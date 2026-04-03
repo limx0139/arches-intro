@@ -23,6 +23,7 @@ Harry has over 500 different coins he wants to write into the database. So far, 
 Arches does provide such a feature in the form of the Bulk Data Manager, though it is disabled by default. If enabled, Bulk Data Manager allows for automated uploads, edits and downloads of data of Resources en-mass.
 
 On the server we are working on, Harry has enabled the use of Bulk Data Manager to facilitate the mass import of his coin collection. Lets try out this feature by populating the database with the dataset in the previous episode:
+
 | Name        | Design      | Mint Date   | Mint Quantity| Face Value  | Actual Value |Designer  | Country      |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |----------- | ----------- |
 | Belgium 2 Euros     | King Albert II and his royal monogram, the letter "A" beneath a crown       | 2004      | 10000000       | 2       | 2        | Jan Alfons Keustermans      | Belgium       |
@@ -36,7 +37,6 @@ On the server we are working on, Harry has enabled the use of Bulk Data Manager 
 | Irish 5 cents      | Celtic harp       | 2003      | 5000000       | .05      | .05       | Jarlath Hayes      | Ireland       |
 | Brussels Atomium Commemerative Coin      | Image of the Atomium in the center of the coin and the engraver’s initials to right with two mintmarks near the base.  | 2006      | 20000       | 2      | 20       | Luc Luycx      | Belgium       |
 
-And here is the download link for the photos of coins.
 <a href="fig/Coins/Coin_Photos.zip" download>Click to Download Photos for the coins</a>
 
 ![BDM Tab](fig/07-01_BDM.png)
