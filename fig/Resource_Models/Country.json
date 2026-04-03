@@ -1,0 +1,391 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "ac31c2e4-d0a7-4d2a-abc2-1dd53481b908",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Names"
+                    },
+                    "nodegroup_id": "fd2cc360-bbd3-40a1-bad7-32e03aae5649",
+                    "sortorder": null,
+                    "source_identifier_id": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "d773fea1-06f7-4d47-bc3c-d744617cd866",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "{\"en\": \"\"}",
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Location"
+                    },
+                    "nodegroup_id": "323e955d-e1fc-4435-8859-8bf58d13b49d",
+                    "sortorder": null,
+                    "source_identifier_id": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": "http://localhost:8000/graph/"
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "6a736800-ac95-4ae8-b6c6-2d3434dae39f",
+                    "edgeid": "17a15b4d-d4ce-48f1-8c5c-950f49bb87ca",
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "fd2cc360-bbd3-40a1-bad7-32e03aae5649",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "323e955d-e1fc-4435-8859-8bf58d13b49d",
+                    "edgeid": "25163c5c-0507-4be7-a807-c9571fd49646",
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "63e9fc96-ce41-4eb1-b143-9e5b6187f171",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "6a736800-ac95-4ae8-b6c6-2d3434dae39f",
+                    "edgeid": "25a3fc31-7a27-44c4-91e5-d5af186156b3",
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "323e955d-e1fc-4435-8859-8bf58d13b49d",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "fd2cc360-bbd3-40a1-bad7-32e03aae5649",
+                    "edgeid": "33c0d29b-0a7d-42fe-b014-9ce105aec8f8",
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "2b59887c-12fa-4063-9a85-99c12c03fc18",
+                    "source_identifier_id": null
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+            "group_permissions": {},
+            "has_unpublished_changes": true,
+            "iconclass": "fa fa-map-marker",
+            "is_active": false,
+            "is_copy_immutable": false,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Country"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "323e955d-e1fc-4435-8859-8bf58d13b49d",
+                    "legacygroupid": null,
+                    "nodegroupid": "323e955d-e1fc-4435-8859-8bf58d13b49d",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "fd2cc360-bbd3-40a1-bad7-32e03aae5649",
+                    "legacygroupid": null,
+                    "nodegroupid": "fd2cc360-bbd3-40a1-bad7-32e03aae5649",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "country_name",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Country Name",
+                    "nodegroup_id": "fd2cc360-bbd3-40a1-bad7-32e03aae5649",
+                    "nodeid": "2b59887c-12fa-4063-9a85-99c12c03fc18",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "new_branch",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "{\"en\": \"\"}",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Location",
+                    "nodegroup_id": "323e955d-e1fc-4435-8859-8bf58d13b49d",
+                    "nodeid": "323e955d-e1fc-4435-8859-8bf58d13b49d",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": "c7a481ba-5a7a-4b16-b8cf-25bfdeacaffb"
+                },
+                {
+                    "alias": "map_data",
+                    "config": {
+                        "addToMap": true,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(20,196,58,0.7)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "fa fa-building",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(18,217,144,0.5)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(20,196,58,0.7)",
+                        "pointHaloColor": "rgba(18,217,144,0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Map Data",
+                    "nodegroup_id": "323e955d-e1fc-4435-8859-8bf58d13b49d",
+                    "nodeid": "63e9fc96-ce41-4eb1-b143-9e5b6187f171",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": "c7a481ba-5a7a-4b16-b8cf-25bfdeacaffb"
+                },
+                {
+                    "alias": "new_resource_model",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Country",
+                    "nodegroup_id": null,
+                    "nodeid": "6a736800-ac95-4ae8-b6c6-2d3434dae39f",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "names",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Names",
+                    "nodegroup_id": "fd2cc360-bbd3-40a1-bad7-32e03aae5649",
+                    "nodeid": "fd2cc360-bbd3-40a1-bad7-32e03aae5649",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": null,
+            "publication": {
+                "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                "most_recent_edit_id": null,
+                "notes": null,
+                "publicationid": "d3554c94-1438-4327-b801-9f666922eb68",
+                "published_time": "2026-04-03T06:05:45.239"
+            },
+            "relatable_resource_model_ids": [
+                "5baf8cbe-1fc7-4448-849a-db1040898f12"
+            ],
+            "resource_2_resource_constraints": [],
+            "resource_instance_lifecycle": {
+                "id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75",
+                "name": {
+                    "en": "Standard"
+                },
+                "resource_instance_lifecycle_states": [
+                    {
+                        "action_label": {
+                            "en": "Revert to Draft"
+                        },
+                        "can_delete_resource_instances": true,
+                        "can_edit_resource_instances": true,
+                        "id": "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f",
+                        "is_initial_state": true,
+                        "name": {
+                            "en": "Draft"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Make Active"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": true,
+                        "id": "f75bb034-36e3-4ab4-8167-f520cf0b4c58",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Active"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "d95d9c0e-0e2c-4450-93a3-d788b91abcc8"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [
+                            "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Retire"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": false,
+                        "id": "d95d9c0e-0e2c-4450-93a3-d788b91abcc8",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Retired"
+                        },
+                        "next_resource_instance_lifecycle_states": [],
+                        "previous_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    }
+                ]
+            },
+            "root": {
+                "alias": "new_resource_model",
+                "config": {},
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "bb70eb5a-c57a-47ce-aa13-cb2f05b8b64f",
+                "hascustomalias": false,
+                "is_collector": false,
+                "is_immutable": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Country",
+                "nodegroup_id": null,
+                "nodeid": "6a736800-ac95-4ae8-b6c6-2d3434dae39f",
+                "ontologyclass": null,
+                "sortorder": 0,
+                "source_identifier_id": null,
+                "sourcebranchpublication_id": null
+            },
+            "slug": "new_resource_model_2",
+            "source_identifier_id": null,
+            "spatial_views": [],
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "user_permissions": {},
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 17.7 (Postgres.app) on aarch64-apple-darwin23.6.0, compiled by Apple clang version 15.0.0 (clang-1500.3.9.4), 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Darwin",
+        "os version": "24.6.0"
+    }
+}
