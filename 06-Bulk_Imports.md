@@ -39,25 +39,29 @@ On the server we are working on, Harry has enabled the use of Bulk Data Manager 
 
 <a href="fig/Coins/Coin_Photos.zip" download>Click to Download Photos for the coins</a>
 
-![BDM Tab](fig/07-01_BDM.png)
+![ ](fig/07-01_BDM.png)
 
 We can access Bulk Data Manager on the sidebar, indicated in red on the figure above. From there, navigate Import Branch Excel and download the template for Coin.
 
-![Branch Import Tab](fig/07-01_BDM.png)
+![ ](fig/07-01_BDM.png)
 
 You should get the following excel spreadsheet:
 
-![Branch Import Tab](fig/07-03_Coin_Template.png)
+![ ](fig/07-03_Coin_Template.png)
 
 Recall that this is the data structure of the Coin shown in the previous lesson, with separate sheets for each node (highlighted in red). The first column (in orange) refers to the system ID for the resource, which Arches can allocate. We can fill it as a list of unique numbers. The third column (in green) indicates the number of entries for each resource, since there is only one entry for each node, we fill this column with identity (1). The third column (in blue), contains actual information, so in the case of the name of the coin, it could be "Belgium 2 Euros" for instance.
 
 Go down each spreadsheets and fill them up with the information provided. 
 For the identity spreadsheet, an entry for the Belgium 2 Euro coin will look like this:
+
+
 ![Example](fig/07-04_Name_Example.png)
 
 For the Countries tab, Arches requires the internal ID of country resources, which while we can find, we do not currently have, so we shall leave it blank and manually add it into the database later.
 
 For the Photos tab, we write the file name of the photo on the required column and supply the photo in the same directory as the spreadsheet, which we will later compress to a zip file. Given the name of the photo for the Belgium 2 Euro coin is "belgien1-2euro.jpg", we would fill up the entry for it as such:
+
+
 ![Example](fig/07-05_Photos_Example.png)
 
 Once the excel spreadsheet is filled, we include it in the same directory as the photographs and compress it to a zip file. This file can then be uploaded to the Arches database through Bulk Data Manager.
