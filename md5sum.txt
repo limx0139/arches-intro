@@ -12,6 +12,6 @@
 "episodes/05-Lets_Try_it_out.md" "4e5c6f8894e3ddcad905075cb3a6a1c6" "site/built/05-Lets_Try_it_out.md" "2026-04-03"
 "episodes/06-Bulk_Imports.md" "625d031b63ad4ece3a0f7963343c14fb" "site/built/06-Bulk_Imports.md" "2026-04-03"
 "instructors/instructor-notes.md" "f76efa646972e1d5abdba3c16497b59c" "site/built/instructor-notes.md" "2026-04-03"
-"learners/reference.md" "4aecf9570ed9d4bbc8cea31a8b6f32d3" "site/built/reference.md" "2026-03-26"
+"learners/reference.md" "b9013405359f88edc9bb88c709e9c132" "site/built/reference.md" "2026-04-03"
 "learners/setup.md" "bffc5d964cb02538b3cc6176a8baae03" "site/built/setup.md" "2026-03-25"
 "profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2026-02-20"
